@@ -2,8 +2,8 @@
   "title": "Nuxt Content",
   "url": "",
   "logo": {
-    "light": "./oma2.png",
-    "dark": "./oma2.png"
+    "light": "./lwm2m.png",
+    "dark": "./lwm2m.png"
   },
   "github": "OpenMobileAlliance",
   "twitter": "@OMASpecWorks"
