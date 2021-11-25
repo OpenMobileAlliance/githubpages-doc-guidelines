@@ -2,9 +2,9 @@
   "title": "Nuxt Content",
   "url": "",
   "logo": {
-    "light": "/logo-light.svg",
-    "dark": "/logo-dark.svg"
+    "light": "./oma2.png",
+    "dark": "./oma2.png"
   },
-  "github": "(oma/website guidelines)",
-  "twitter": "(@OMASpecWorks)"
+  "github": "oma/website guidelines",
+  "twitter": "@OMASpecWorks"
 }
