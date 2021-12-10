@@ -7,7 +7,6 @@ category: 'Pages'
 
 ## Page Structure
 
-## Index
 <table>
     <caption>Index - Page Structure </caption>
     <thead>
@@ -34,43 +33,36 @@ category: 'Pages'
             <td></td>
         </tr>
         <tr>
-            <td>modules</td>
-            <td>RowButtonGrid</td>
+            <td rowspan="8">modules</td>
+            <td><a href="./#rowbuttongrid" target="_blank">RowButtonGrid</a></td>
             <td></td>
         </tr>
         <tr>
-            <td></td>
-            <td>RowImage</td>
-            <td></td>
-        </tr>
-        <tr>
-            <td></td>
-            <td>RowImageText</td>
+            <td><a href="./#rowimage" target="_blank">RowImage</a></td>
             <td></td>
         </tr>
         <tr>
-            <td></td>
-            <td>RowMultiColumns</td>
-            <td></td>
-        </tr>
-        <tr>
-            <td></td>
-            <td>RowNewList</td>
+            <td><a href="./#rowimagetext" target="_blank">RowImageText</a></td>
             <td></td>
         </tr>
         <tr>
-            <td></td>
-            <td>RowSeparator</td>
-            <td></td>
-        </tr>
-        <tr>
-            <td></td>
-            <td>RowText</td>
+            <td><a href="./#rowmulticolumns" target="_blank">RowMultiColumns</a></td>
             <td></td>
         </tr>
         <tr>
+            <td><a href="./#rownewlist" target="_blank">RowNewList</a></td>
             <td></td>
-            <td>RowTextImage</td>
+        </tr>
+        <tr>
+            <td><a href="./#rowseparator" target="_blank">RowSeparator</a></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td><a href="./#rowtext" target="_blank">RowText</a></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td><a href="./#rowtextimage" target="_blank">RowTextImage</a></td>
             <td></td>
         </tr>
     </tbody>

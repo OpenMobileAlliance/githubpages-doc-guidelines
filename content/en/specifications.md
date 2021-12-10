@@ -1,8 +1,8 @@
 ---
-title: Blogs
+title: Specifications
 description: ''
 position: 25
 category: 'Pages'
 ---
 
-## Blogs
+## OMA Published Specifications
