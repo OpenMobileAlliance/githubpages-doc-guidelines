@@ -1,8 +1,8 @@
 ---
 title: Blogs
 description: ''
-position: 20
-category: 'Updating Content'
+position: 25
+category: 'Pages'
 ---
 
 ## Blogs

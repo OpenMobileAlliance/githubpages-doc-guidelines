@@ -1,8 +1,8 @@
 ---
 title: F.A.Q
 description: ''
-position: 30
-category: 'Updating Content'
+position: 20
+category: 'Pages'
 ---
 
 ## Frequent Asked Questions
