@@ -1,7 +1,7 @@
 ---
 title: Index
 description: ''
-position: 5
+position: 10
 category: 'Pages'
 ---
 
