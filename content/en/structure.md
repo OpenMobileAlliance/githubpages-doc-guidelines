@@ -33,9 +33,10 @@ List of possible modules
 <tbody>
       <tr>
             <td><a href="./#rowtext" target="_blank">RowText</a></td>
-            <td>
-                  <ti>it is used to insert text</ti>
-                  <ti>If multiple lines are needed, then insert `|` symbol and then write content across multiple lines.</ti>
+            <td><ul>
+                  <li>it is used to insert text</li>
+                  <li>If multiple lines are needed, then insert `|` symbol and then write content across multiple lines.</li>
+                </ul>
             </td>
       </tr>
       <tr>
@@ -44,39 +45,62 @@ List of possible modules
       </tr>
       <tr>
             <td><a href="./#rowmulticolumns" target="_blank">RowMultiColumns</a></td>
+            <td><ul>
+                  <li>It is used to insert a table</li>
+                  <li>Each table column can reuse any of the defined modules</li>
+                </ul>
+            </td>
+      </tr>
+      <tr>
+            <td><a href="./#rownewlist" target="_blank">RowNewList</a></td>
             <td>
-                  <ti>It is used to insert a table</ti>
-                  <ti>Each table column can reuse any of the defined modules</ti>
+                  <ul>
+                        <li>It is normally used as a submodule inside of <a href="./#rowmulticolumns" target="_blank">RowMultiColumns</a> module</li>
+                  </ul>
+            </td>
+      </tr>
+      <tr>
+            <td><a href="./#rowbuttongrid" target="_blank">RowButtonGrid</a></td>
+            <td>
+                  <ul>
+                        <li>It is normally used as a submodule inside of <a href="./#rowmulticolumns" target="_blank">RowMultiColumns</a> module</li>
+                  </ul>
+            </td>
+      </tr>
+      <tr>
+            <td><a href="./#rowimage" target="_blank">RowImage</a></td>
+            <td>
+                  <ul>
+                        <li>This module is used to insert an `image` that covers the screen width</li>
+                  </ul>
+            </td>
+      </tr>
+      <tr>
+            <td><a href="./#rowimagetext" target="_blank">RowImageText</a></td>
+            <td>
+                  <ul>
+                        <li>This module is representing as a row, with an `image` on the left and `text` on the right</li>
+                  </ul>
+            </td>
+      </tr>
+      <tr>
+            <td><a href="./#rowtextimage" target="_blank">RowTextImage</a></td>
+            <td>
+                  <ul>
+                        <li>This module is used to represent, in a row, `text` on the left and an `image` on the right </li>
+                  </ul>
             </td>
       </tr>
       <tr>
             <td></td>
-            <td></td>
-      </tr>
-      <tr>
-            <td></td>
-            <td></td>
-      </tr>
-      <tr>
-            <td></td>
-            <td></td>
+            <td>
+                  <ul>
+                        <li></li>
+                  </ul>
+            </td>
       </tr>
 </tbody>
 </table>
-
-<a href="./#rownewlist" target="_blank">RowNewList</a>
-* It is normally used as a submodule inside of <a href="./#rowmulticolumns" target="_blank">RowMultiColumns</a> module
-
-<a href="./#rowbuttongrid" target="_blank">RowButtonGrid</a>
-* It is normally used as a submodule inside of <a href="./#rowmulticolumns" target="_blank">RowMultiColumns</a> module
-
-<a href="./#rowimage" target="_blank">RowImage</a>
-* This module is used to insert an Image that covers the screen width
-
-<a href="./#rowimagetext" target="_blank">RowImageText</a>
-* This module is representing as a row, with an image on the left and text on the right
-
-<a href="./#rowtextimage" target="_blank">RowTextImage</a>
 
 ## Footer
 
