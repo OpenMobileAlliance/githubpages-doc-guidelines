@@ -25,8 +25,10 @@ List of possible modules
 
 <table>
 <thead>
-      <th>Name</th>
-      <th>Description</th>
+      <tr>
+            <th>Name</th>
+            <th>Description</th>
+      </tr>
 </thead>
 <tbody>
       <tr>
