@@ -38,7 +38,8 @@ The `footer` contains OMA copyright statement and its `social media` icons.
 In the next section [Structure](structure.md#structure) you can see how each of these components is structured.
 
 ## Modules
-A `module` is a container or a box that is spreaded across a row of the website. Inside of the container is possible to define one of these types of content:
+As previously indicated the basic type of content inside of a `module` could be:
+
 * text,
 * image,
 * text & image,
@@ -47,8 +48,7 @@ A `module` is a container or a box that is spreaded across a row of the website.
 * blog card
 * news card
 
-> Note: the module name provides an indication what is inside of the module,
-`Row+containerType`, e.g. a containe with `text` on the left and an `image` on the right is named, `RowTextImage`.
+> Note: the `module` name `Row+containerType` provides an indication what is inside of the module, e.g. a `module` with the name `RowTextImage`contains `text` on the left-hand and an `image` on the right-hand. A `module` called `RowText` only contains text.
 
 List of available modules:
 
@@ -70,13 +70,13 @@ List of available modules:
       </tr>
       <tr>
             <td><a href="./#rowseparator" target="_blank">RowSeparator</a></td>
-            <td>It is used to insert a blank line. It is possible to control the high of the line.</td>
+            <td>It is used to insert a blank line. It is possible to control the high of the line by using a property.</td>
       </tr>
       <tr>
             <td><a href="./#rowmulticolumns" target="_blank">RowMultiColumns</a></td>
             <td><ul>
                   <li>It is used to insert a table</li>
-                  <li>Each table column can reuse any of the defined modules</li>
+                  <li>Each table column can contain any of the defined modules</li>
                 </ul>
             </td>
       </tr>
