@@ -15,7 +15,7 @@ The image below describes the website structure for [lwm2m.openmobilealliance.or
       <img src="./images/website-structure.svg" alt="Website Structure ">
       <figcaption>Website Structure</figcaption>
 </figure>
-<img width="531" alt="image" src="https://user-images.githubusercontent.com/3258579/145750055-3a5f9f74-345c-4ab2-8981-9770a4f87857.png">
+<img width="611" alt="image" src="https://user-images.githubusercontent.com/3258579/146739678-1f8a3f21-48db-477a-96ce-35dbf2d9a9d2.png">
 
 **Navigation**
 
@@ -24,7 +24,11 @@ The content of this block contains a clicable `logo`, the `menus` and `submenus`
 **Body**
 
 The main placeholder for the body is the `page`. 
-A `page` is formed by `modules` that are stacked one on top of each other. Each `module` contains a particular constructor, such as: `image`, `text`, `imageText`, `textImage` `table`, etc. It is also possible to embed modules inside of modules.
+A `page` is formed by `containers` that are boxes stacked one of top of each other and spreaded across the width of the webpage. Each `container` can contain one or more `modules`. The basic type of content that can be inserted inside of a `module` are: `image`, `text`, `table`, `blank-separator`, `news-card`, `blog-card`, etc.
+
+Inside of a `container` is possible to insert a `module` which in turn contains another `module`. The above image depictures an example where one `container` contains a `module`, called `rowMultiColumns` - a table with two columns - in one of the columns is inserted a `rowNewList` module and in other column is inserted a `rowButtonGrid` module.
+
+It also possible to concatenate two `modules` inside of a `container`, e.g. a text section on the left followed by a imgage to the right, called `rowTextImage` or the reserve an image to the left followed by a text to the right, called `rowImageText`.
 
 
 **Footer**
