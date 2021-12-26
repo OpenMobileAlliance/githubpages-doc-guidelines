@@ -1,108 +1,38 @@
 ---
-title: Structure
+title: Website Structure
 description: ''
 position: 5
 category: 'GETTING STARTED'
 ---
+
+The image below describes the website structure for [lwm2m.openmobilealliance.org](https://lwm2m.openmobilealliance.org/).
+
+* Navigation
+* Body
+* Footer
+
 <figure class="text-center">
-      <img src="images/components.png" alt="Website Structure">
+      <img src="./images/website-structure.svg" alt="Website Structure ">
       <figcaption>Website Structure</figcaption>
 </figure>
+<img width="611" alt="image" src="https://user-images.githubusercontent.com/3258579/146739678-1f8a3f21-48db-477a-96ce-35dbf2d9a9d2.png">
 
-## Navigation
-![image](https://user-images.githubusercontent.com/3258579/145750378-e9e18d71-96b0-42b8-8786-1937ff1caa76.png)
-### Logo
+### Navigation
 
-### Menus
+The content of this block contains a clicable `logo`, the `menus` and `submenus`.
 
-#### SubMenus
+### Body
 
-## Pages
-![image](https://user-images.githubusercontent.com/3258579/145750479-24e03173-1c24-4107-bde8-f8c20b16665e.png)
+The main placeholder for the body is the `page`. 
+A `page` is formed by `containers` that are boxes stacked one of top of each other and spreaded across the width of the webpage. Each `container` can contain one or more `modules`. The basic type of content that can be inserted inside of a `module` are: `image`, `text`, `table`, `blank-separator`, `news-card`, `blog-card`, etc.
 
-### Modules
-List of possible modules
+Inside of a `container` is possible to insert a `module` which in turn contains another `module`. The above image depictures an example where one `container` contains a `module`, called `rowMultiColumns` - a table with two columns - in one of the columns is inserted a `rowNewList` module and in other column is inserted a `rowButtonGrid` module.
 
-<table>
-<thead>
-      <tr>
-            <th>Name</th>
-            <th>Description</th>
-      </tr>
-</thead>
-<tbody>
-      <tr>
-            <td><a href="./#rowtext" target="_blank">RowText</a></td>
-            <td><ul>
-                  <li>it is used to insert text</li>
-                  <li>If multiple lines are needed, then insert `|` symbol and then write content across multiple lines.</li>
-                </ul>
-            </td>
-      </tr>
-      <tr>
-            <td><a href="./#rowseparator" target="_blank">RowSeparator</a></td>
-            <td>It is used to insert a blank line. It is possible to control the high of the line.</td>
-      </tr>
-      <tr>
-            <td><a href="./#rowmulticolumns" target="_blank">RowMultiColumns</a></td>
-            <td><ul>
-                  <li>It is used to insert a table</li>
-                  <li>Each table column can reuse any of the defined modules</li>
-                </ul>
-            </td>
-      </tr>
-      <tr>
-            <td><a href="./#rownewlist" target="_blank">RowNewList</a></td>
-            <td>
-                  <ul>
-                        <li>It is normally used as a submodule inside of <a href="./#rowmulticolumns" target="_blank">RowMultiColumns</a> module</li>
-                  </ul>
-            </td>
-      </tr>
-      <tr>
-            <td><a href="./#rowbuttongrid" target="_blank">RowButtonGrid</a></td>
-            <td>
-                  <ul>
-                        <li>It is normally used as a submodule inside of <a href="./#rowmulticolumns" target="_blank">RowMultiColumns</a> module</li>
-                  </ul>
-            </td>
-      </tr>
-      <tr>
-            <td><a href="./#rowimage" target="_blank">RowImage</a></td>
-            <td>
-                  <ul>
-                        <li>This module is used to insert an `image` that covers the screen width</li>
-                  </ul>
-            </td>
-      </tr>
-      <tr>
-            <td><a href="./#rowimagetext" target="_blank">RowImageText</a></td>
-            <td>
-                  <ul>
-                        <li>This module is representing as a row, with an `image` on the left and `text` on the right</li>
-                  </ul>
-            </td>
-      </tr>
-      <tr>
-            <td><a href="./#rowtextimage" target="_blank">RowTextImage</a></td>
-            <td>
-                  <ul>
-                        <li>This module is used to represent, in a row, `text` on the left and an `image` on the right </li>
-                  </ul>
-            </td>
-      </tr>
-      <tr>
-            <td></td>
-            <td>
-                  <ul>
-                        <li></li>
-                  </ul>
-            </td>
-      </tr>
-</tbody>
-</table>
+It also possible to concatenate two `modules` inside of a `container`, e.g. a text section on the left followed by a imgage to the right, called `rowTextImage` or the reserve an image to the left followed by a text to the right, called `rowImageText`.
 
-## Footer
 
-![image](https://user-images.githubusercontent.com/3258579/145750577-10b836b6-7511-4cb3-b1e0-3e85bbffcfe0.png)
-### Social Media Icons
+### Footer
+
+The `footer` contains OMA copyright statement and its `social media` icons.
+
+In the next section [Structure](structure.md#structure) you can see how each of these components is structured.
