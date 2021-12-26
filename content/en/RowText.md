@@ -1,7 +1,7 @@
 ---
 title: RowText
 description: ''
-position: 180
+position: 110
 category: 'MODULES'
 ---
 ## Overview

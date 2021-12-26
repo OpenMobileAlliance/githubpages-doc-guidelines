@@ -7,17 +7,16 @@ category: 'GETTING STARTED'
 
 The image below describes the website structure for [lwm2m.openmobilealliance.org](https://lwm2m.openmobilealliance.org/).
 
-* Navigation
+* Header
 * Body
 * Footer
 
 <figure class="text-center">
-      <img src="./images/website-structure.svg" alt="Website Structure ">
+      <img src="/images/website-structure.svg" alt="Website Structure">
       <figcaption>Website Structure</figcaption>
 </figure>
-<img width="611" alt="image" src="https://user-images.githubusercontent.com/3258579/146739678-1f8a3f21-48db-477a-96ce-35dbf2d9a9d2.png">
 
-### Navigation
+### Header
 
 The content of this block contains a clicable `logo`, the `menus` and `submenus`.
 

@@ -1,7 +1,7 @@
 ---
 title: RowSeparator
 description: ''
-position: 170
+position: 105
 category: 'MODULES'
 ---
 ## Overview
