@@ -1,11 +1,11 @@
 ---
-title: RowBottonGrid
+title: RowButtonGrid
 description: ''
 position: 100
 category: 'MODULES'
 ---
-
 ## Overview
+This module is used inside [`RowMultiColumns`](RowMulticolumsn.md).
 
 <table>
 <thead>
@@ -27,9 +27,27 @@ category: 'MODULES'
 </tbody>
 </table>
 
+## Display
+
 This is how `RowBottonGrid` is rendered in a webpage: 
 
 <img width="1180" alt="image" src="https://user-images.githubusercontent.com/3258579/146674459-90a77f96-a38a-4398-95ce-bacf5aceb426.png">
+
+## Structure
+`name`:
+
+`cols`:
+* `title`:
+* `subtitle`:
+* `image`:
+* `items`:
+  * `title`:
+  * `subtitle`:
+  * `status`:
+  * `url`:
+  * `target`:
+
+## Example
 
 This is how `RowBottonGrid` is written in Markdown:
 
