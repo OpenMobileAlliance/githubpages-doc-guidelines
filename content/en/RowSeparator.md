@@ -5,6 +5,14 @@ position: 105
 category: 'MODULES'
 ---
 ## Overview
+When building a page sometimes is necessary to separate one `container` from the other with an empty line. The high of the empty line should be variable to adjust the empty space between two `containers`. 
+
+The `RowSepartor` allows to establish a gap between two consecutive `containers`.
+
+![image](https://user-images.githubusercontent.com/3258579/147421681-8183eed8-d5b6-4c3d-ba24-d96612f81864.png)
+
+
+## Use
 
 <table>
 <thead>
@@ -16,8 +24,17 @@ category: 'MODULES'
 <tbody>
       <tr>
             <td><a href="./#rowseparator" target="_blank">RowSeparator</a></td>
-            <td><ul>
-                  <li>It is used to insert a blank line. It is possible to control the high of the line by using a property.</li>
+            <td>
+               <ul>
+                  <li>It is used to insert en empty line. </li>
+                  <li>It is possible to control the high of the line by using the <i>size</i> property and a value: </li>
+                        <ul>
+                              <li><b><i>XS</i></b> : extra small empty line</li>
+                              <li><b><i>S</i></b> : small empty line</li>
+                              <li><b><i>M</i></b> : medium empty line</li>
+                              <li><b><i>L</i></b> : large empty line</li>
+                              <li><b><i>XL</i></b> : extra large empty line</li>
+                        </ul>
                   <li><a href="#rowseparator" >See example</a></li>
                 </ul>
             </td>
@@ -25,10 +42,16 @@ category: 'MODULES'
 </tbody>
 </table>
 
+## Display
+
 <img width="1180" alt="image" src="https://user-images.githubusercontent.com/3258579/146674402-d8cb7185-e767-4dfb-9a66-79ead6430c44.png">
 
-```md
+## Code
+
+```md [oma_github_pages/content/index.md]
   -
     name: RowSeparator
     size: S #provide XS, S, M, L, XL spacing between component
 ```
+
+## F.A.Q
