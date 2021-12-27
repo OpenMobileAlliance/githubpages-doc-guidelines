@@ -5,6 +5,10 @@ position: 150
 category: 'MODULES'
 ---
 ## Overview
+This `module` is use to insert a table inside of the `container`. The property `cols` is used to define the number of columns of the table and the property `widths` is used to define the width of each column. The total width of the `container` is of `12` columns. The additon of all the values inserted in the `widths` property MUST be equal to `12`.
+
+## Use
+This tables describes what `RowMultiColumns` is and how to use it.
 
 <table>
 <thead>
@@ -26,8 +30,13 @@ category: 'MODULES'
 </tbody>
 </table>
 
-This is how `RowMultiColumns` is rendered:
+## Display
+
+This is how `RowMultiColumns` is rendered on the webpage:
+
 <img width="1180" alt="image" src="https://user-images.githubusercontent.com/3258579/146674432-8800c643-3b85-4647-8c9f-b718a5869192.png">
+
+## Code
 
 This is the content of the table written in a markdown file:
 
@@ -203,3 +212,42 @@ This is the content of the table written in a markdown file:
                 url: https://github.com/OpenMobileAlliance/OMA_LwM2M_for_Developers/wiki/Virtual-TestFest-Mar-2021
                 target: _blank
 ```
+## Property
+>Note: please pay special attention to the [indentation]() of the `properties` and `submodules`
+`name`: **RowMultiColumns**
+
+`cols`:
+* the value of this property is an integer from `1` to `12`, which represents the number of columns contained by the table across the webpage width.
+
+`widths`:
+* this property represents the width of each column by an integer. The addition of all the columns widths values MUST be equal to `12`, which is the maximum number of columns that a `container` can display.
+
+`modules`:
+* this property doesn't have any value, it is used to [indent]() to the right the following `properties`:
+
+  * `name`:
+    * this represents the name of the [`module`]()
+
+  * `title`:
+    * the value of this `property` will be used to display at the top of the column
+    * the value will be displayed in `bold`
+
+  * `subtitle`:
+    * the value of this `property` will be displayed in `italic` below the title
+
+  * `image`:
+    * each column will have an `icon` displayed on top of the `title`
+    * the `icon` is stored externally, out side of the repository in XXX
+    * in this case the value of the `image` is a `string` which name represents an `icon` in the above reference
+
+*Submodule 1*
+  * This indicates that one of the existing [`module`]() can be inserted inside of the `RowMultiColumns` as a column.
+  * See content [indentation]()
+
+*Submodule n*
+  * A [`module`]() MUST be inserted for each defined column 
+  * See content [indentation]()
+
+
+## F.A.Q
+

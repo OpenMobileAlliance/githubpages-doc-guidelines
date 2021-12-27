@@ -5,8 +5,10 @@ position: 110
 category: 'MODULES'
 ---
 ## Overview
-This module inserts one or more text paragraphs. The text covers the width of the page.
+This module inserts one or more text (Markdown) paragraphs. The text covers the width of the page.
+
 ## Use
+This table describes what is and how to use `RowText` module.
 
 <table>
 <thead>

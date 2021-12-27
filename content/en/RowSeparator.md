@@ -13,6 +13,7 @@ The `RowSepartor` allows to establish a gap between two consecutive `containers`
 
 
 ## Use
+This table describes what is and how to use `RowSeparator` module.
 
 <table>
 <thead>

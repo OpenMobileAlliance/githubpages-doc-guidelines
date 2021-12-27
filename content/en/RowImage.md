@@ -7,6 +7,8 @@ category: 'MODULES'
 ## Overview
 
 ## Use
+This table describes what is and how to use `RowImage` module.
+
 <table>
 <thead>
       <tr>
