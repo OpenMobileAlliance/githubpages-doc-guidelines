@@ -8,7 +8,7 @@ category: 'MODULES'
 This `module` is use to insert a table inside of the `container`. The property `cols` is used to define the number of columns of the table and the property `widths` is used to define the width of each column. The total width of the `container` is of `12` columns. The additon of all the values inserted in the `widths` property MUST be equal to `12`.
 
 ## Use
-This tables describes what `RowMultiColumns` is and how to use it.
+This table describes what `RowMultiColumns` is and how to use it.
 
 <table>
 <thead>
@@ -247,7 +247,6 @@ This is the content of the table written in a markdown file:
 *Submodule n*
   * A [`module`]() MUST be inserted for each defined column 
   * See content [indentation]()
-
 
 ## F.A.Q
 
