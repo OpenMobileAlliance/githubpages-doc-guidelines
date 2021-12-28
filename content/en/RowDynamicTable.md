@@ -7,6 +7,14 @@ category: 'MODULES'
 
 ## Overview
 
+## Display
+This is how `RowDynamicTable` is rendered in a webpage:
+
+<img width="1140" alt="image" src="https://user-images.githubusercontent.com/3258579/146674562-a4e1a8ea-c4a8-41db-98b1-f72d1161b7c8.png">
+
+## Use
+This table describes what `RowDynamicTable` is and how to use it
+
 <table>
 <thead>
       <tr>
@@ -19,10 +27,7 @@ category: 'MODULES'
 </tbody>
 </table>
 
-This is how `RowDynamicTable` is rendered in a webpage:
-
-<img width="1140" alt="image" src="https://user-images.githubusercontent.com/3258579/146674562-a4e1a8ea-c4a8-41db-98b1-f72d1161b7c8.png">
-
+## Code
 This is how `RowDynamicTable` is written in Markdown:
 
 ```md
@@ -137,19 +142,22 @@ This is how `RowDynamicTable` is written in Markdown:
 ```
 
 
-### Description
-This module inserts a table with multiple columns, with pagination, and filtering.
+## Properties
+### Structure
+> Note: it is important to keep the indentation described in this structure.
+
 `name`
 
 `description`
 
 `pagination`
 
-`filter`
-It is composed of one or more attributes
+`filter`:
+* `title`
+* `type`
+* `published`
 
-### `columns`
-This attribute is a wraper that contains the following attributes:
+`columns`:
 
 * `key`
 
@@ -157,22 +165,62 @@ This attribute is a wraper that contains the following attributes:
 
 * `sortable`
 
-### `items`
+`items`:
 
-* `title`
+* `title`:
 
    `title`
 
-* `type`
+* `type`:
 
    * `title`
 
-* `published`
+* `published`:
 
    * `title`
 
-* `download`
+* `download`:
 
    * `icon`
    * `url`
    * `target`
+
+### Description
+This module inserts a table with multiple columns, with pagination, and filtering.
+`name`:
+
+`description`:
+
+`pagination`:
+
+`filter`:
+It is composed of one or more attributes
+
+`columns`:
+This attribute is a wraper that contains the following attributes:
+
+* `key`:
+
+* `label`:
+
+* `sortable`:
+
+`items`:
+
+* `title`:
+
+   `title`:
+
+* `type`:
+
+   * `title`:
+
+* `published`:
+
+   * `title`:
+
+* `download`:
+
+   * `icon`:
+   * `url`:
+   * `target`:

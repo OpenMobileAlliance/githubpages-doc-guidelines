@@ -183,6 +183,24 @@ This is how `RowBottonGrid` is written in Markdown:
                 target: _blank
 ```
 ## Properties
+### Structure
+`name`: **RowButtonGrid**
+
+`cols`:
+  * `title`:
+  * `subtitle`:
+  * `image`:
+  * `items`:
+      * `title`:
+      * `subtitle`:
+      * `status`:
+          * `hightlight`
+          * `active`
+          * `deactive`
+          * `pending`
+          * `url`:
+          * `target`:
+### Description
 `name`: **RowButtonGrid**
 
 `cols`:
@@ -219,3 +237,5 @@ This is how `RowBottonGrid` is written in Markdown:
         * the value of this property is a global or local URL
       * `target`:
         * optional which values are empty or `_blank`. The latest value open the content of the URL in a new webpage
+
+## F.A.Q
