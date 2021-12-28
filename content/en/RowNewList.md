@@ -6,7 +6,7 @@ category: 'MODULES'
 ---
 ## Overview
 It lists the content inside of the folder **News**. 
-The `module` can be used by itself inside of a `container` or as a `submodule` inside for example a table or `RowMultiColumns` module.
+The `module` can be used by itself inside of a `container` or as a `submodule` inside for example a table or [`RowMultiColumns`]() `module`.
 
 ## Use
 This table describes what `RowNewList` is and how to use it.

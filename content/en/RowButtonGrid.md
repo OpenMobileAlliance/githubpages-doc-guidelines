@@ -5,7 +5,17 @@ position: 170
 category: 'MODULES'
 ---
 ## Overview
-This module is used inside [`RowMultiColumns`](RowMulticolumsn.md).
+It is used to create a table with columns which each cell contains a *button* which background color can be controlled by the `status` property.
+The `module` can be used inside by itself inside of a `container` or as a submodule inside of the e.g. [`RowMultiColumns`](RowMulticolumsn.md).
+
+## Display
+
+This is how `RowButtonGrid` is rendered in a webpage: 
+
+<img width="1180" alt="image" src="https://user-images.githubusercontent.com/3258579/146674459-90a77f96-a38a-4398-95ce-bacf5aceb426.png">
+
+## Use
+This table describes what `RowButtonGrid` is and how to use it.
 
 <table>
 <thead>
@@ -26,13 +36,6 @@ This module is used inside [`RowMultiColumns`](RowMulticolumsn.md).
       </tr>
 </tbody>
 </table>
-
-## Display
-
-This is how `RowButtonGrid` is rendered in a webpage: 
-
-<img width="1180" alt="image" src="https://user-images.githubusercontent.com/3258579/146674459-90a77f96-a38a-4398-95ce-bacf5aceb426.png">
-
 
 ## Example
 
@@ -179,43 +182,40 @@ This is how `RowBottonGrid` is written in Markdown:
                 url: https://github.com/AVSystem/Anjay
                 target: _blank
 ```
-## Structure
-`name`: `RowButtonGrid`
+## Properties
+`name`: **RowButtonGrid**
 
 `cols`:
-* `title`:
-* `subtitle`:
-* `image`:
-* `items`:
+* this property doesn't have any value, it is used to define the style of the header column as well as the `items` inserted in this column as `cells`
+* the properties listed below define the content per column. To add more than one column repite these set of properties, indented to the right of the property `cols`
   * `title`:
+    * it provides a *bold* title at the top of the column
   * `subtitle`:
-  * `status`:
-  * `url`:
-  * `target`:
-
-
-### Description
-`name`
-
-`cols`
-### Attributes
-`title`
-
-`submtitle`
-
-`image`
-
-`items`
-
-#### Items
-The following items are dented to the left of the attribute `items`:
-
-`title`
-
-`subtitle`
-
-`status`
-
-`url`
-
-`target`
+    * it provides an *italic* title below the `title`
+  * `image`:
+    * same arrangement as in the `RowMultiColumns`, or `RowNewList` `modules`
+    * this is an `icon` displayed on top of the `title`
+    * the `icon` is stored externally, out side of the repository in XXX
+    * in this case the value of the `image` is a `string` which name represents an `icon` in the above reference
+  * `items`:
+    * the following properties are used to define a `button` inside of the column cell
+    * the following items are indented to the right:
+      * `title`:
+        * this property is used to provide a **bold** title at the top of the `button`
+      * `subtitle`:
+        * this property is used to provide an `italic` subtitle below the `title` property
+      * `status`:
+        * with this property is possible to control the background color of the button, the possible values are:
+          * `hightlight`
+            * in the CSS this element is configured to be `highlighted`
+          * `active`
+            * the look and feel provided in the CSS is configured to be `on`
+          * `deactive`
+            * the look and feel provided in the CSS is configured to be `off`
+          * `pending`
+            * the look and feel provided in the CSS is configured to be in `transition`
+      * `url`:
+        * optional
+        * the value of this property is a global or local URL
+      * `target`:
+        * optional which values are empty or `_blank`. The latest value open the content of the URL in a new webpage
