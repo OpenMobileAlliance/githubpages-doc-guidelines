@@ -11,6 +11,9 @@ The `RowSepartor` allows to establish a gap between two consecutive `containers`
 
 ![image](https://user-images.githubusercontent.com/3258579/147421681-8183eed8-d5b6-4c3d-ba24-d96612f81864.png)
 
+## Display
+
+<img width="1180" alt="image" src="https://user-images.githubusercontent.com/3258579/146674402-d8cb7185-e767-4dfb-9a66-79ead6430c44.png">
 
 ## Use
 This table describes what is and how to use `RowSeparator` module.
@@ -42,10 +45,6 @@ This table describes what is and how to use `RowSeparator` module.
       </tr>
 </tbody>
 </table>
-
-## Display
-
-<img width="1180" alt="image" src="https://user-images.githubusercontent.com/3258579/146674402-d8cb7185-e767-4dfb-9a66-79ead6430c44.png">
 
 ## Code
 This is how to insert a `RowSeparator` in a Markdonw file:

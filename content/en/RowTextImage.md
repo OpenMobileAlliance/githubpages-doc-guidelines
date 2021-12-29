@@ -8,6 +8,12 @@ category: 'MODULES'
 This module allows to insert of a container that covers the width of the webpage a `text` paragraph (Markdown language) on the left-hand side and an `image` on the right-hand side.
 The space taken by the `text` is controlled by the property `cols`. The value of `cols` is an integer from 1 to 12. The higher the value, the more space will be dedicated to the `text` part.
 
+## Display
+
+This is how `RowTextImage` is rendered in a webpage:
+
+<img width="1124" alt="image" src="https://user-images.githubusercontent.com/3258579/146674537-f07848b0-fed1-4f1a-b84b-aace9a5672f3.png">
+
 ## Use
 This table describes what `RowTextImage` module is and how to use it.
 
@@ -30,12 +36,6 @@ This table describes what `RowTextImage` module is and how to use it.
       </tr>
 </tbody>
 </table>
-
-## Display
-
-This is how `RowTextImage` is rendered in a webpage:
-
-<img width="1124" alt="image" src="https://user-images.githubusercontent.com/3258579/146674537-f07848b0-fed1-4f1a-b84b-aace9a5672f3.png">
 
 ## Code
 

@@ -1,11 +1,12 @@
 ---
 title: RowDynamicTable
 description: ''
-position: 180
+position: 190
 category: 'MODULES'
 ---
 
 ## Overview
+This `module` is used when it is necesary to introduce a `table`. with `filters`, `search`, and `pagination`.
 
 ## Display
 This is how `RowDynamicTable` is rendered in a webpage:
@@ -23,7 +24,15 @@ This table describes what `RowDynamicTable` is and how to use it
       </tr>
 </thead>
 <tbody>
-
+      <tr>
+            <td><a href="./#rowdynamictable" target="_blank">RowDynamicTable</a></td>
+            <td>
+                  <ul>
+                        <li>It is used when when a `table` is needed <a href="./#rowdynamictable" target="_blank">RowDynamicTable</a> module</li>
+                        <li><a href="#rowdynamictable" >See example</a></li>
+                  </ul>
+            </td>
+      </tr>
 </tbody>
 </table>
 
@@ -186,41 +195,71 @@ This is how `RowDynamicTable` is written in Markdown:
    * `target`
 
 ### Description
-This module inserts a table with multiple columns, with pagination, and filtering.
-`name`:
+This module inserts a `table` with multiple `columns`, `pagination`, `filtering` and `search`.
+
+`name`: **RowDynamicTable**
 
 `description`:
+* it is a string that describes the purpose of the table.
 
 `pagination`:
+* this property indicates row many `rows` will be displayed per page
 
 `filter`:
-It is composed of one or more attributes
+* this property allows to filter in alphabetic or asdesding/descending order the content on the colums. The value to insert is the title of the column, which is described in by the `key` property of the `columns` 
 
 `columns`:
-This attribute is a wraper that contains the following attributes:
+* This attribute is a wraper that defines the headers or titles of the `table`. It contains the following properties:
 
 * `key`:
+  * this property holds the `key` value that identify the title of the column
 
 * `label`:
+  * the value of this property is used to display the column title
 
 * `sortable`:
+  * this property can have two values:
+    * `true`: the columns can be filtered
+    * `false`: the column cannot be filtered
 
 `items`:
+* this property is a wrapper that lists the content of each `row` on the `table`
 
 * `title`:
+  * this is a wrapper for the value associated to the `key` property
+  * this value MUST be the same as the one defined inside of the `columns` properties. In this particular example the value of the `key` property was set to `title`
 
-   `title`:
+   * `title`:
+    * this property contains a value to display on the row of the `table`
 
 * `type`:
+  * this is a wrapper for the `type` property
+  * this value MUST be the same as the one defined inside of the `columns` properties. In this particular example the value of the `key` property was set to `type`
 
    * `title`:
+      * this property contains a value to display on the `table`
 
 * `published`:
+  * this is a wrapper for the `published` property
+  * this value MUST be the same as the one defined inside of the `columns` properties. In this particular example the value of the `key` property was set to `published`
 
-   * `title`:
+  * `title`:
+      * this property contains a value to display on the `table`
 
 * `download`:
+  * this is a wrapper for the `published` property
+  * this value MUST be the same as the one defined inside of the `columns` properties. In this particular example the value of the `key` property was set to `download`
+  * Inside of this wrapper it has been defined some extra properties:
 
    * `icon`:
+     * the `icon` property is used to insert an icon from an external reference XXX
+  
    * `url`:
+    * the `url` property is used to insert a URL
+    * a click in the icon will open the webpage on the corresponding URL
+
    * `target`:
+    * this is an optinal property which value is `_blank`
+    * if this value `_blank` is inserted then the webpage will be open in a new window
+
+## F.A.Q

@@ -7,6 +7,12 @@ category: 'MODULES'
 ## Overview
 This module is similar to `RowTextImage` with the difference that the `image` goes on the left-hand side and the `text` on the right-hand side. The width inside of the `container` taken by the `image` is controlled by the property `cols`. The value of this property goes from `1` to `12` columns. The bigger of the number of columns the more space will be dedicated to the `image` and the difference to `12` will be dedicated to the `text`.
 
+## Display
+
+This is how `RowImageText` is rendered in a webpage:
+
+<img width="1134" alt="image" src="https://user-images.githubusercontent.com/3258579/146674517-2a11b964-10d9-49c2-a396-74857f35cd47.png">
+
 ## Use
 This table desribes what `RowImageText` is and how to use it.
 
@@ -31,10 +37,6 @@ This table desribes what `RowImageText` is and how to use it.
 </table>
 
 ## Code
-
-This is how `RowImageText` is rendered in a webpage:
-
-<img width="1134" alt="image" src="https://user-images.githubusercontent.com/3258579/146674517-2a11b964-10d9-49c2-a396-74857f35cd47.png">
 
 This is how `RowImageText` is written in Markdown:
 

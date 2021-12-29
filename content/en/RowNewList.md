@@ -8,6 +8,12 @@ category: 'MODULES'
 It lists the content inside of the folder **News**. 
 The `module` can be used by itself inside of a `container` or as a `submodule` inside for example a table or [`RowMultiColumns`]() `module`.
 
+## Display
+
+This is how `RowNewList` module is rendered in webpage:
+
+<img width="1180" alt="image" src="https://user-images.githubusercontent.com/3258579/146674445-f5d7f46a-6c3b-4a3d-8962-0f0f680b2511.png">
+
 ## Use
 This table describes what `RowNewList` is and how to use it.
 
@@ -30,12 +36,6 @@ This table describes what `RowNewList` is and how to use it.
       </tr>
 </tbody>
 </table>
-
-## Display
-
-This is how `RowNewList` module is rendered in webpage:
-
-<img width="1180" alt="image" src="https://user-images.githubusercontent.com/3258579/146674445-f5d7f46a-6c3b-4a3d-8962-0f0f680b2511.png">
 
 ## Code
 

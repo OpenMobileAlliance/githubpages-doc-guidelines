@@ -7,6 +7,12 @@ category: 'MODULES'
 ## Overview
 This `module` is use to insert a table inside of the `container`. The property `cols` is used to define the number of columns of the table and the property `widths` is used to define the width of each column. The total width of the `container` is of `12` columns. The additon of all the values inserted in the `widths` property MUST be equal to `12`.
 
+## Display
+
+This is how `RowMultiColumns` is rendered on the webpage:
+
+<img width="1180" alt="image" src="https://user-images.githubusercontent.com/3258579/146674432-8800c643-3b85-4647-8c9f-b718a5869192.png">
+
 ## Use
 This table describes what `RowMultiColumns` is and how to use it.
 
@@ -29,12 +35,6 @@ This table describes what `RowMultiColumns` is and how to use it.
       </tr>
 </tbody>
 </table>
-
-## Display
-
-This is how `RowMultiColumns` is rendered on the webpage:
-
-<img width="1180" alt="image" src="https://user-images.githubusercontent.com/3258579/146674432-8800c643-3b85-4647-8c9f-b718a5869192.png">
 
 ## Code
 

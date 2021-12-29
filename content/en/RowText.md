@@ -7,6 +7,11 @@ category: 'MODULES'
 ## Overview
 This module inserts one or more text (Markdown) paragraphs. The text covers the width of the page.
 
+## Display
+
+The content of the `RowText` module is highlighted in red.
+<img width="1180" alt="image" src="https://user-images.githubusercontent.com/3258579/146674378-2affdcd4-18f4-48a5-b857-38954693dc7d.png">
+
 ## Use
 This table describes what is and how to use `RowText` module.
 
@@ -29,11 +34,6 @@ This table describes what is and how to use `RowText` module.
       </tr>
 </tbody>
 </table>
-
-## Display
-
-The content of the `RowText` module is highlighted in red.
-<img width="1180" alt="image" src="https://user-images.githubusercontent.com/3258579/146674378-2affdcd4-18f4-48a5-b857-38954693dc7d.png">
 
 ## Code
 This is how to insert a `RowText` module in a Markdown file:
