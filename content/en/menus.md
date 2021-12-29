@@ -81,23 +81,39 @@ category: 'GETTING STARTED'
 
 ### Structure
 
-* `component`
-* `description`
-* `menus`
-    * `title`
-    * `description`
-    * `url`
-    * `target`
-    * `class`
-    * `items`
-        * `title`
-        * `url`
-        * `class`
-    * `description`
-    * `icon`
-    * `url`
-    * `target`
-    * `class`
+```yml
+---  # always start with a `-`
+    component:
+    description:
+    menus:
+      - # use these properties to define a menu
+        title:
+        description:
+        url:
+        target:
+        class:
+      - # repite the above properties for each menu
+
+      - # to insert a submenus inside of a menu use these properties
+        title:
+        description:
+        url:
+        target:
+        class:
+        items:
+          - # 'items' is used to define the properties of a submenu
+            title:
+            url:
+            class:
+          - # repite the 'items' properties for each submenu
+      -     # use the properties define below to add an icon to the left-hand side of the header
+        description:
+        icon:
+        url:
+        target:
+        class:
+---
+```
 
 ### Description
 

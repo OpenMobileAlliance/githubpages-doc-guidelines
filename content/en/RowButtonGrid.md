@@ -37,7 +37,7 @@ This table describes what `RowButtonGrid` is and how to use it.
 </tbody>
 </table>
 
-## Example
+## Code
 
 This is how `RowBottonGrid` is written in Markdown:
 
@@ -184,22 +184,26 @@ This is how `RowBottonGrid` is written in Markdown:
 ```
 ## Properties
 ### Structure
-`name`: **RowButtonGrid**
 
-`cols`:
-  * `title`:
-  * `subtitle`:
-  * `image`:
-  * `items`:
-      * `title`:
-      * `subtitle`:
-      * `status`:
-          * `hightlight`
-          * `active`
-          * `deactive`
-          * `pending`
-          * `url`:
-          * `target`:
+```yml
+-
+  name: RowButtonGrid
+  cols:
+    -
+      title:
+      subtitle:
+      image:
+      items:
+        -
+          title:
+          subtitle:
+          status:
+          url:
+          target:
+        -
+          repite again
+```
+
 ### Description
 `name`: **RowButtonGrid**
 

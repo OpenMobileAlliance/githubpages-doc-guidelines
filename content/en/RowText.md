@@ -46,6 +46,16 @@ This is how to insert a `RowText` module in a Markdown file:
       These GitHub pages are dedicated to DMSE/IPSO Working Groups.
 ```
 ## Properties
+### Structure
+
+```yml
+-  # always start with a `-`
+   name:
+   text:
+```
+
+### Description
+
 `name`: **RowText**
 
 `text`: 

@@ -41,47 +41,49 @@ This is how `RowEvents` is written in Markdown:
 > Note: in the example below, the `module` is used in of a `RowButtonGrid` and it is defined after the property `cols`.
 
 ```md
-      - 
-        name: RowButtonGrid
-        id: events
-        cols:
-          -
-            title: Events
-            subtitle: Coming
-            image: fas users
-            items:
-              - 
-                title: Last Virtual Event
-                subtitle: 2021-Nov-10
-                status: deactive  # options "active" = on; "deactive" = off; "pending" = in transition; "highlight" = extra visible
-                url: https://github.com/OpenMobileAlliance/OMA_LwM2M_for_Developers/wiki/Virtual-TestFest-Mar-2021
-                target: _blank
-              - 
-                title: Previous
-                subtitle: Events
-                status: active  # options "active" = on; "deactive" = off; "pending" = in transition; "highlight" = extra visible
-                url: https://github.com/OpenMobileAlliance/OMA_LwM2M_for_Developers/wiki/Virtual-TestFest-Mar-2021
-                target: _blank
+- 
+      title: Events
+      subtitle: Coming
+      image: fas users
+      items:
+            - 
+            title: Last Virtual Event
+            subtitle: 2021-Nov-10
+            status: deactive  # options "active" = on; "deactive" = off; "pending" = in transition; "highlight" = extra visible
+            url: https://github.com/OpenMobileAlliance/OMA_LwM2M_for_Developers/wiki/Virtual-TestFest-Mar-2021
+            target: _blank
+            - 
+            title: Previous
+            subtitle: Events
+            status: active  # options "active" = on; "deactive" = off; "pending" = in transition; "highlight" = extra visible
+            url: https://github.com/OpenMobileAlliance/OMA_LwM2M_for_Developers/wiki/Virtual-TestFest-Mar-2021
+            target: _blank
 ```
 ## Properties
 ### Structure
-`name`: **RowButtonGrid**
 
-`id`: **events**
-`cols`:
-  * `title`:
-  * `subtitle`:
-  * `image`:
-  * `items`:
-      * `title`:
-      * `subtitle`:
-      * `status`:
-      * `url`:
-      * `target`:
+```yml
+-  # always start with a `-`
+  title: Events
+  subtitle:
+  image:
+  items:
+    - # this section defines the content on each row
+      title:
+      subtitle:
+      status:
+      url:
+      target:
+   -  # repite the properties inside of items for each row
+
+```
 
 ### Description
+
 `name`: **RowButtonGrid**
+
 `id`: **events**
+
 `cols`:
 * this is an empty property that it is used to list the header content of the column
 * these properties were already defined in the [`RowButtonGrid`]() `module`
@@ -96,3 +98,5 @@ This is how `RowEvents` is written in Markdown:
       * `status`:
       * `url`:
       * `target`:
+
+## F.A.Q

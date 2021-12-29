@@ -153,46 +153,38 @@ This is how `RowDynamicTable` is written in Markdown:
 
 ## Properties
 ### Structure
-> Note: it is important to keep the indentation described in this structure.
 
-`name`
+```yml
+- 
+  name:
+  description:
+  pagination:
+  filter:
+      - title:
+      - type:
+      - published:
+  columns:
+    -
+      key:
+      label:
+      sortable:
+    -
+      # repite the content inside of columns for each column on the table
 
-`description`
-
-`pagination`
-
-`filter`:
-* `title`
-* `type`
-* `published`
-
-`columns`:
-
-* `key`
-
-* `label`
-
-* `sortable`
-
-`items`:
-
-* `title`:
-
-   `title`
-
-* `type`:
-
-   * `title`
-
-* `published`:
-
-   * `title`
-
-* `download`:
-
-   * `icon`
-   * `url`
-   * `target`
+  items:
+    - title:
+        title:
+      type:
+        title:
+      published:
+        title:
+      download:
+        icon:
+        url:
+        target:
+    -
+      #repite the content inside of items for each row on the table
+```
 
 ### Description
 This module inserts a `table` with multiple `columns`, `pagination`, `filtering` and `search`.

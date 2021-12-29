@@ -55,6 +55,18 @@ This is how `RowImageText` is written in Markdown:
 ```
 
 ## Properties
+### Structure
+
+```yml
+-
+  name:
+  cols:
+  image:
+  status:
+  text:
+```
+
+### Description
 `name`: **RowImageText**
 
 `cols`: 

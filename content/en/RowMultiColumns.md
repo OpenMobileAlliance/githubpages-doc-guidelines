@@ -212,7 +212,29 @@ This is the content of the table written in a markdown file:
                 url: https://github.com/OpenMobileAlliance/OMA_LwM2M_for_Developers/wiki/Virtual-TestFest-Mar-2021
                 target: _blank
 ```
-## Property
+## Properties
+### Structure
+
+```yml
+-
+  name:
+  cols:
+  widths:
+  modules:
+    -
+      name:
+      title:
+      subtitle:
+      image:
+    -
+      # add another module as a submodule
+    - 
+      # add as many modules as you need
+
+```
+
+### Description
+
 >Note: please pay special attention to the [indentation]() of the `properties` and `submodules`
 `name`: **RowMultiColumns**
 

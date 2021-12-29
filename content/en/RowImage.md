@@ -50,6 +50,17 @@ This is how `RowImage` is written in Markdown:
 
 ```
 ## Properties
+### Structure
+```yml
+-
+   name:
+   cols:
+   image:
+   title: 
+   status:
+```
+
+### Description
 `name`: **RowImage**
 
 `cols`: 
@@ -64,6 +75,6 @@ This is how `RowImage` is written in Markdown:
 
 `status`:
 * it is an optional property
-* `border-image` place a window (X,Y) on top of the image trimming anything outside of the window
+* if the property is set to *border-image*, then a window (X,Y) is place on top of the image trimming anything outside of the window
 
 ## F.A.Q

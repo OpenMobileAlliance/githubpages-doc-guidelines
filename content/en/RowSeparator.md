@@ -55,6 +55,16 @@ This is how to insert a `RowSeparator` in a Markdonw file:
     size: S #provide XS, S, M, L, XL spacing between component
 ```
 ## Properties
+### Structure
+
+```yml
+-  # always start with a `-`
+   name:
+   size:
+```
+
+### Description
+
 `name`: **RowSeparator**
 
 `size`: It is used to control the high of the empty space between two consecutive `containers`
@@ -63,4 +73,5 @@ This is how to insert a `RowSeparator` in a Markdonw file:
 * `M` : medium empty line
 * `L` : large empty line
 * `XL`: extra large empty line
+
 ## F.A.Q

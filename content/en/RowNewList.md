@@ -49,6 +49,18 @@ This is how it is written:
         image: fas cube
 ```
 ## Properties
+### Structure
+
+```yml
+-  # always start with a `-`
+  name:
+  title:
+  subtitle:
+  image:
+```
+
+### Description
+
 `name`: **RowNewsList**
 
 `title`:
