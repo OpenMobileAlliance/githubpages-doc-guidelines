@@ -17,11 +17,13 @@ category: 'GETTING STARTED'
 
 ## Code
 
-```md[oma_github_pages / content / menus.md]
----
+* Location: ['oma_github_pages / content / menus.md'](https://raw.githubusercontent.com/OpenMobileAlliance/oma_github_pages/main/content/menus.md)
+
+```yml[oma_github_pages / content / menus.md]
+--- # start of front-matter
   component: Navbar
   description: this file is dedicated to menus
-  menus:
+  menus: # start of menus
     - 
       title: OMA Website
       description: 
@@ -48,7 +50,7 @@ category: 'GETTING STARTED'
       title: Information
       description: News & BLog pages of the OMA DMSE
       class: text-uppercase
-      items:
+      items: # start of submenus
         - 
            title: Blogs
            url: /blogs/
@@ -61,13 +63,14 @@ category: 'GETTING STARTED'
            title: F.A.Q
            url: /faq/
            class: text-uppercase
-    - 
+    
+    - # add GitHub icon to the left-hand side of the menu
       description: link to GitHub
       icon: "fab github"
       url: https://github.com/OpenMobileAlliance
       target: _blank
       class: ml-auto
----
+--- # end of the front-matter
 ```
 ### Properties
 
@@ -164,3 +167,21 @@ category: 'GETTING STARTED'
 ## F.A.Q
 
 
+## OMA Website
+
+On the top `menus` there is a link called [`OMA Website`](https://omaspecworks.org/). This is a link that points to the OMA Website (WordPress). 
+
+![image](https://user-images.githubusercontent.com/3258579/145714818-ed1e695a-81b7-4b2a-8ae4-b4df5345ce26.png)
+
+
+
+* Script: 
+---
+    - 
+      title: OMA Website
+      description: 
+      url: http://www.openmobilealliance.org/
+      target: _blank
+      class: text-uppercase
+    -
+---

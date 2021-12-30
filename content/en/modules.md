@@ -4,7 +4,8 @@ description: ''
 position: 10
 category: 'GETTING STARTED'
 ---
-### Modules Content
+## Overview
+## Content Type
 As previously indicated the basic type of content inside of a `module` could be:
 
 * text,
@@ -17,7 +18,7 @@ As previously indicated the basic type of content inside of a `module` could be:
 
 > Note: the `module` name `Row+containerType` provides an indication what is inside of the module, e.g. a `module` with the name `RowTextImage`contains `text` on the left-hand and an `image` on the right-hand. A `module` called `RowText` only contains text.
 
-### List of Modules
+## List of Modules
 List of available modules:
 
 <table>
@@ -120,3 +121,7 @@ List of available modules:
       </tr>
 </tbody>
 </table>
+
+> Indentation: it is important to respect the indentation of each module and its properties. If the indentation is not correct the content may not be displayed correctly.
+
+## F.A.Q

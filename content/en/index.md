@@ -1,82 +1,67 @@
 ---
-title: Index
+title: Home
 description: ''
 position: 10
 category: 'Pages'
 ---
 
-## Home Page
-This is the default landing pages for the DMSE/IPSO GitHub pages.
+## Overview
+This is the default landing page for [lwm2m.openmobilealliance.org](https://lwm2m.openmobilealliance.org/) website.
+
+## Display
 
 ![image](https://user-images.githubusercontent.com/3258579/145714934-f1f4564e-79db-4b6e-80be-11cae2e10c2c.png)
 
-* File Location: [`oma_github_pages / content / index.md`](https://raw.githubusercontent.com/OpenMobileAlliance/oma_github_pages/main/content/index.md)
+* Location: [`oma_github_pages / content / index.md`](https://raw.githubusercontent.com/OpenMobileAlliance/oma_github_pages/main/content/index.md)
+* `title`:   Home Page
+* `description`:   Main page of the web application
+* `modules`:       See list below
+
+
+## Structure
 
 ### Modules
-**Definition**
-* `title`         Home Page
-* `description`   Main page of the web application
-* `modules`       See list below
-**Modules**
+This page contains the following modules an in this order.
 
-<a href="./#rowtext" target="_blank">RowText</a>
-* it is used to insert text
-* If multiple lines are needed, then insert `|` symbol and then write content across multiple lines.
+**Inside of the `front-matter`**:
 
-<a href="./#rowseparator" target="_blank">RowSeparator</a>
-* It is used to insert a blank line. It is possible to control the high of the line.
+* [RowText](https://raw.githubusercontent.com/OpenMobileAlliance/oma_github_pages/main/content/index.md)
+  * this container contains a `module` with text only
+* [RowSepartor](https://raw.githubusercontent.com/OpenMobileAlliance/oma_github_pages/main/content/index.md)
+  * this represents an empty space to separate two containers
+* [RowMulticolumns](https://raw.githubusercontent.com/OpenMobileAlliance/oma_github_pages/main/content/index.md)
+  * this container is a `module` that introduces a table where each column contains other `modules` 
+  * in this case the property `cols` is set to **3**, which means the table will contain **3** columns
+  * the property `widths` defines the width of each column, in this page it is set to **[2, 8, 2]**. The addition of these widths MUST be **12**, which is the maximum number of columns that can be fit into a webpage
+    * **2**, indicates that the width of the first column is 2 out of 12, which is used to display the News by using the `module` [RowNewsList](https://raw.githubusercontent.com/OpenMobileAlliance/oma_github_pages/main/content/index.md)
+    * **8**, sets the width of the second column, this will allow to split this column in **5** subcolumns. the content of the subcolumns is defined with the `module` called [RowButtonGrid](https://raw.githubusercontent.com/OpenMobileAlliance/oma_github_pages/main/content/index.md)
+    * **2**, is set as the width for the third column, the furthest on the left of the screen. The `module` to represent this content is called [RowButtonGrid](https://raw.githubusercontent.com/OpenMobileAlliance/oma_github_pages/main/content/index.md) but it differs from the above by a property `id` set to **events** value. This is pick up by the **CSS** and provides a wider width of the column.
+      * [RowNewsList](https://raw.githubusercontent.com/OpenMobileAlliance/oma_github_pages/main/content/index.md)
+       * this container contains a `module` with the News information that is listed in the menu `News`
+       * the value of the property `homepage` represents the order in which the news will be listed in this column
+      * [RowButtonGrid](https://raw.githubusercontent.com/OpenMobileAlliance/oma_github_pages/main/content/index.md)
+        * this `module` is used to define the content of the following **5** columns:
+          * **LwM2M** *Protocol*
+          * **Test** *Specs*
+          * **LwM2M** *Enablers*
+          * **Resources** *Information*
+          * **Implementations** *Code*
+      * [RowButtonGrid](https://raw.githubusercontent.com/OpenMobileAlliance/oma_github_pages/main/content/index.md) with property `id` set to **events** that increases the width of the column
+* [RowSeparator](https://raw.githubusercontent.com/OpenMobileAlliance/oma_github_pages/main/content/index.md)
+  * it introduces a empty horizontal space between the containers [RowMulticolumns](https://raw.githubusercontent.com/OpenMobileAlliance/oma_github_pages/main/content/index.md) and [RowImageText](https://raw.githubusercontent.com/OpenMobileAlliance/oma_github_pages/main/content/index.md)
+* [RowImageText](https://raw.githubusercontent.com/OpenMobileAlliance/oma_github_pages/main/content/index.md)
+  * this container contains a single `module` with an `image` on the left-hand side of the row and `text` on the right-hand side
+* [RowSeparator](https://raw.githubusercontent.com/OpenMobileAlliance/oma_github_pages/main/content/index.md)
+  * this container introduces an empty horizontal space to speparated vertically the containers [RowImageText](https://raw.githubusercontent.com/OpenMobileAlliance/oma_github_pages/main/content/index.md) and [RowTextImage](https://raw.githubusercontent.com/OpenMobileAlliance/oma_github_pages/main/content/index.md)
+* [RowTextImage](https://raw.githubusercontent.com/OpenMobileAlliance/oma_github_pages/main/content/index.md)
+  * this container contains a single `module` with `text` on the lef-hand side and an `image` on the right-hand side of the row
+* [RowSeparator](https://raw.githubusercontent.com/OpenMobileAlliance/oma_github_pages/main/content/index.md)
+  * this container introduces a empty horizontal space that separates the [RowTextImage](https://raw.githubusercontent.com/OpenMobileAlliance/oma_github_pages/main/content/index.md) `module` from the `front-matter`
 
-<a href="./#rowmulticolumns" target="_blank">RowMultiColumns</a>
-* It is used to insert a table
-* Each table column can reuse any of the defined modules
+**Outside of the `front-matter`**
+* Free [markdown](https://raw.githubusercontent.com/OpenMobileAlliance/oma_github_pages/main/content/index.md) content
 
-<a href="./#rownewlist" target="_blank">RowNewList</a>
-* It is normally used as a submodule inside of <a href="./#rowmulticolumns" target="_blank">RowMultiColumns</a> module
-
-<a href="./#rowbuttongrid" target="_blank">RowButtonGrid</a>
-* It is normally used as a submodule inside of <a href="./#rowmulticolumns" target="_blank">RowMultiColumns</a> module
-
-<a href="./#rowimage" target="_blank">RowImage</a>
-* This module is used to insert an Image that covers the screen width
-
-<a href="./#rowimagetext" target="_blank">RowImageText</a>
-* This module is representing as a row, with an image on the left and text on the right
-
-<a href="./#rowtextimage" target="_blank">RowTextImage</a>
-* This module is represented as a row, with `Text` on the left and `Image` on the right.
-
-
-
-
-## OMA Website
-
-On the top `menus` there is a link called [`OMA Website`](https://omaspecworks.org/). This is a link that points to the OMA Website (WordPress). 
-
-![image](https://user-images.githubusercontent.com/3258579/145714818-ed1e695a-81b7-4b2a-8ae4-b4df5345ce26.png)
-
-* Location: ['oma_github_pages / content / menus.md'](https://raw.githubusercontent.com/OpenMobileAlliance/oma_github_pages/main/content/menus.md)
-
-* Script: 
----
-    - 
-      title: OMA Website
-      description: 
-      url: http://www.openmobilealliance.org/
-      target: _blank
-      class: text-uppercase
-    -
----
-
-## Resources
-
-## TestFests
-
-## Specifications
-
-## Information
-### Blogs
-
-### News
+> Note: `from-matter` starts and ends with 3 dashes `---`
 
 ### F.A.Q
 
