@@ -12,7 +12,7 @@ The image below describes the website structure for [lwm2m.openmobilealliance.or
 * Footer
 
 <figure>
-      <img src="/images/website-structure.svg" alt="Website Structure">
+      <img src="images/website-structure.svg" alt="Website Structure">
       <figcaption>Website Structure</figcaption>
 </figure>
 

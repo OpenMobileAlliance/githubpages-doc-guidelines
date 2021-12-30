@@ -15,7 +15,7 @@ The website has been constructed using a framework developed by `StandardsCode` 
 `StandardsCode` Open-Source project, is developing [`modules`]() that can be easily inserted in markdown files. Using the [NUTXT.js]() framework the content on these markdonw files are as webpages using GitHub Pages.
 
 <figure>
-      <img  src="/images/website-framework.svg" alt="Website Framework">
+      <img  src="images/website-framework.svg" alt="Website Framework">
       <figcaption>Website Framework</figcaption>
 </figure>
 
