@@ -8,20 +8,29 @@ category: 'Pages'
 ## Overview
 This is the default landing page for [lwm2m.openmobilealliance.org](https://lwm2m.openmobilealliance.org/) website.
 
+The home page can be reached by using the URL [https://lwm2m.openmobilealliance.org/](https://lwm2m.openmobilealliance.org/) or by clicking on the LwM2M logo.
+
+The page contains a table that provides an overview of:
+* [LwM2M News](https://lwm2m.openmobilealliance.org/news/)
+* Versions of the [LwM2M protocol](https://guidelines.openmobilealliance.org/#v12-functionality) relased until now
+* List of available [LwM2M Test Specifications](http://www.openmobilealliance.org/release/LightweightM2M/ETS/)
+* Other [LwM2M Enablers](https://guidelines.openmobilealliance.org/enablers)
+* [LwM2M Registry](https://technical.openmobilealliance.org/OMNA/LwM2M/LwM2MRegistry.html) and [wiki](https://github.com/OpenMobileAlliance/OMA_LwM2M_for_Developers/wiki)
+* Open-Source implementations of LwM2M Enabler: [Lesham](https://github.com/eclipse/leshan), [Wakaama](https://github.com/eclipse/wakaama), [Anjay](https://github.com/AVSystem/Anjay)
+* Events related to LwM2M: [Previous](https://github.com/OpenMobileAlliance/OMA_LwM2M_for_Developers/wiki/Virtual-TestFest-Mar-2021) and current.
+
 ## Display
 
 ![image](https://user-images.githubusercontent.com/3258579/145714934-f1f4564e-79db-4b6e-80be-11cae2e10c2c.png)
 
-* Location: [`oma_github_pages / content / index.md`](https://raw.githubusercontent.com/OpenMobileAlliance/oma_github_pages/main/content/index.md)
-* `title`:   Home Page
-* `description`:   Main page of the web application
-* `modules`:       See list below
-
-
 ## Structure
-
+The properties that define the page are contained inside of the `front-matter`[^1]
+* Location: [`oma_github_pages / content / index.md`](https://raw.githubusercontent.com/OpenMobileAlliance/oma_github_pages/main/content/index.md)
+  * `title`:   Home Page
+  * `description`:   Main page of the web application
+  * `modules`:       See list below
 ### Modules
-This page contains the following modules an in this order.
+This page contains the following modules, and in this order:
 
 **Inside of the `front-matter`**:
 
@@ -59,9 +68,15 @@ This page contains the following modules an in this order.
   * this container introduces a empty horizontal space that separates the [RowTextImage](https://raw.githubusercontent.com/OpenMobileAlliance/oma_github_pages/main/content/index.md) `module` from the `front-matter`
 
 **Outside of the `front-matter`**
-* Free [markdown](https://raw.githubusercontent.com/OpenMobileAlliance/oma_github_pages/main/content/index.md) content
+No `modules` can be defined outside of the `front-matter`, `---`
 
-> Note: `from-matter` starts and ends with 3 dashes `---`
+But it is possible to use standard [markdown](https://raw.githubusercontent.com/OpenMobileAlliance/oma_github_pages/main/content/index.md) content to define any content that can be represented by markdown language.
+
 
 ## F.A.Q
 
+
+
+<!--- below is a footnote --->
+
+[^1]: each markdown page defined inside of the folder `content` contains a `front-matter`, which is represented by properties inserted inside of **3** `-`. One is inserted at the begining `---` before defining the properties and the other after defining the properties.
