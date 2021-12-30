@@ -155,7 +155,7 @@ This is how `RowDynamicTable` is written in Markdown:
 ### Structure
 
 ```yml
-- 
+-  # always start with a `-`
   name:
   description:
   pagination:
@@ -164,14 +164,13 @@ This is how `RowDynamicTable` is written in Markdown:
       - type:
       - published:
   columns:
-    -
+    - # these properties define the header of the columns
       key:
       label:
       sortable:
     -
       # repite the content inside of columns for each column on the table
-
-  items:
+  items:  # the properties inside of items define the content of each row
     - title:
         title:
       type:

@@ -52,7 +52,7 @@ This is how `RowImage` is written in Markdown:
 ## Properties
 ### Structure
 ```yml
--
+-  # always start with a `-`
    name:
    cols:
    image:

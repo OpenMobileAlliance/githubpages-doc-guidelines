@@ -186,22 +186,22 @@ This is how `RowBottonGrid` is written in Markdown:
 ### Structure
 
 ```yml
--
+-  # always start with a `-`
   name: RowButtonGrid
   cols:
-    -
+    - # these properties define the headers of the columns
       title:
       subtitle:
       image:
       items:
-        -
+        - # these properties define the content of each row
           title:
           subtitle:
           status:
           url:
           target:
         -
-          repite again
+          # repite the properties inside of items for each row to add
 ```
 
 ### Description

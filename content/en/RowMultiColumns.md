@@ -216,20 +216,20 @@ This is the content of the table written in a markdown file:
 ### Structure
 
 ```yml
--
+-  # always start with a `-`
   name:
   cols:
   widths:
   modules:
-    -
+    -    # these properties define the content of each column header
       name:
       title:
       subtitle:
       image:
     -
-      # add another module as a submodule
+      # insert another module as a submodule
     - 
-      # add as many modules as you need
+      # insert as many modules as you need
 
 ```
 
