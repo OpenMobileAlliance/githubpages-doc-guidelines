@@ -7,7 +7,7 @@ category: 'GETTING STARTED'
 ## Overview
 
 <figure>
-      <img  src="/images/website-header.svg" alt="Website Header">
+      <img  src="images/website-header.svg" alt="Website Header">
       <figcaption>Website Header</figcaption>
 </figure>
 
