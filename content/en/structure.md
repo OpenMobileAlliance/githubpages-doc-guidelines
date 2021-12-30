@@ -35,4 +35,84 @@ It also possible to concatenate two `modules` inside of a `container`, e.g. a te
 
 The `footer` contains OMA copyright statement and its `social media` icons.
 
-In the next section [Structure](structure.md#structure) you can see how each of these components is structured.
+* Location: [oma_github_pages / components / row / footer.vue](https://raw.githubusercontent.com/OpenMobileAlliance/oma_github_pages/main/components/Footer.vue)
+
+### Code
+
+```js[oma_github_pages / components / row / footer.vue]
+<template>
+  <footer class="fixed-bottom footer mt-auto py-3">
+    <b-container fluid>
+      <b-row no-gutters>
+        <b-col> /* OMA copyrigh statement */
+          <p class="font-weight-light mt-2">
+            <small>(&copy;) 2021 Open Mobile Alliance</small>
+          </p>
+        </b-col>
+        <b-col>
+          <b-nav class="float-right"> 
+            <b-nav-item href="https://twitter.com/OMASpecWorks" target="_blank"> 
+              <FontAwesomeIcon :icon="['fab', 'twitter']" />
+            </b-nav-item> /* Twitter account */
+            <b-nav-item
+              href="https://www.facebook.com/OMASpecWorks"  
+              target="_blank">
+              <FontAwesomeIcon :icon="['fab', 'facebook']" />
+            </b-nav-item> /* Facebook account */
+            <b-nav-item
+              href="https://github.com/OpenMobileAlliance"
+              target="_blank"            >
+              <FontAwesomeIcon :icon="['fab', 'github']" />
+            </b-nav-item> /* GitHub account */
+          </b-nav>
+        </b-col>
+      </b-row>
+    </b-container>
+  </footer>
+</template>
+
+<script>
+export default {}
+</script>
+
+```
+### Structure
+
+```js
+<template>
+<footer class="fixed-bottom footer mt-auto py-3">
+    <b-container fluid>
+      <b-row no-gutters>
+            <b-col>
+                  ...
+            </b-col>
+            <b-col>
+                  <b-nav class="float-right"> 
+                        <b-nav-item href="https://twitter.com/OMASpecWorks" target="_blank"> 
+                              <FontAwesomeIcon :icon="['fab', 'twitter']" />
+                        </b-nav-item> /* Twitter account */
+                        <b-nav-item
+                              href="https://www.facebook.com/OMASpecWorks"  
+                              target="_blank">
+                                    <FontAwesomeIcon :icon="['fab', 'facebook']" />
+                        </b-nav-item> /* Facebook account */
+                        <b-nav-item
+                              href="https://github.com/OpenMobileAlliance"
+                              target="_blank"            >
+                                    <FontAwesomeIcon :icon="['fab', 'github']" />
+                        </b-nav-item> /* GitHub account */
+                  </b-nav>
+            </b-col>
+      </b-row>
+    </b-container>
+</footer>
+</template>
+```
+### Properties
+`<b-nav-item>`
+* `href` = URL to point to
+* `target`= "_blank", opens the link content in a new webpage
+
+`<FontAwesomeIcon>`
+* `icon="['fab', 'logoName']"`
+  * `logName` is set to value like: facebook, twitter, github, etc
