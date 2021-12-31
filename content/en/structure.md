@@ -4,13 +4,14 @@ description: ''
 position: 5
 category: 'GETTING STARTED'
 ---
-
+## Overview
 The image below describes the website structure for [lwm2m.openmobilealliance.org](https://lwm2m.openmobilealliance.org/).
 
 * Header
 * Pages
 * Footer
 
+## Structure
 <figure>
       <img src="images/website-structure.svg" alt="Website Structure">
       <figcaption>Website Structure</figcaption>
@@ -37,7 +38,7 @@ The `footer` contains OMA copyright statement and its `social media` icons.
 
 * Location: [oma_github_pages / components / row / footer.vue](https://raw.githubusercontent.com/OpenMobileAlliance/oma_github_pages/main/components/Footer.vue)
 
-### Code
+#### Code
 
 ```js[oma_github_pages / components / row / footer.vue]
 <template>
@@ -76,7 +77,7 @@ export default {}
 </script>
 
 ```
-### Structure
+#### Structure
 
 ```js
 <template>
@@ -108,7 +109,7 @@ export default {}
 </footer>
 </template>
 ```
-### Properties
+#### Properties
 `<b-nav-item>`
 * `href` = URL to point to
 * `target`= "_blank", opens the link content in a new webpage
