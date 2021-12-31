@@ -9,7 +9,7 @@ This page contains a table with links to different type of resources: webpages, 
 The content on the table is searcheable, it is possible to filter the content of some columns and if the number of resources growth is possible to use pagination to specify how many row will be shown per page.
 
 ## Display
-This image depictures the content displayed on this page.
+This image depictures the content displayed on this page broken down into `modules`.
 ![image](https://user-images.githubusercontent.com/3258579/147797815-f0bd7b73-d18e-4975-b5f0-6498fa29c887.png)
 
 ## Structure

@@ -20,7 +20,7 @@ The page contains a table defined by the [`RowMultiColumn`]() module that contai
 * Events related to LwM2M: [Previous](https://github.com/OpenMobileAlliance/OMA_LwM2M_for_Developers/wiki/Virtual-TestFest-Mar-2021) and current.
 
 ## Display
-
+The image below depictures the content of this page broken down into `modules`.
 ![image](https://user-images.githubusercontent.com/3258579/147797014-ba8f9fc6-ddfb-4a97-b056-c8d2e204bbab.png)
 
 ## Structure
