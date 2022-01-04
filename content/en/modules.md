@@ -1,7 +1,7 @@
 ---
 title: Modules
 description: ''
-position: 10
+position: 15
 category: 'GETTING STARTED'
 ---
 ## Overview
@@ -12,9 +12,9 @@ As previously indicated the basic type of content inside of a `module` could be:
 * image,
 * text & image,
 * table (each cell on the table can contain inside another container)
-* blank line
-* blog card
-* news card
+* empty-line
+* blog-card
+* news-card
 
 > Note: the `module` name `Row+containerType` provides an indication what is inside of the module, e.g. a `module` with the name `RowTextImage`contains `text` on the left-hand and an `image` on the right-hand. A `module` called `RowText` only contains text.
 

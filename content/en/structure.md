@@ -1,17 +1,38 @@
 ---
-title: Website Structure
+title: Structure
 description: ''
 position: 5
 category: 'GETTING STARTED'
 ---
 ## Overview
+This section describes the framework used to construct this website and how the webpages are structured.
+
+## Framework
+`StandardsCode` Open-Source project, is developing [`modules`]() that can be easily inserted in markdown files. Using the [NUTXT.js]() framework the content on these markdonw files are as webpages using GitHub Pages.
+
+<figure>
+      <img  src="images/website-framework.svg" alt="Website Framework">
+      <figcaption>Website Framework</figcaption>
+</figure>
+
+### Javascript (JS)
+It is a programming language that is one of the core techologies of the World Wide Wed, alongside HTML and CSS.
+### Vue.js 
+It is an open-source model-view-viewmodel front end JavaScript framework for building user interfaces and single-page applications.
+
+### Nutx.js
+It is a free and open-source web application framework based on [Vue.js](), [Node.js](), [Webpack]() and [Babel.js]().
+
+### Standards Code
+It is an open-source web application framework that extends [Nutx.js]() by defining `modules` that represent content in a webpage.
+
+## Website Structure
 The image below describes the website structure for [lwm2m.openmobilealliance.org](https://lwm2m.openmobilealliance.org/).
 
 * Header
 * Pages
 * Footer
 
-## Structure
 <figure>
       <img src="images/website-structure.svg" alt="Website Structure">
       <figcaption>Website Structure</figcaption>
@@ -39,6 +60,7 @@ The `footer` contains OMA copyright statement and its `social media` icons.
 * Location: [oma_github_pages / components / row / footer.vue](https://raw.githubusercontent.com/OpenMobileAlliance/oma_github_pages/main/components/Footer.vue)
 
 #### Code
+This is the code that describes the content of the `footer`:
 
 ```js[oma_github_pages / components / row / footer.vue]
 <template>
@@ -111,9 +133,10 @@ export default {}
 ```
 #### Properties
 `<b-nav-item>`
-* `href` = URL to point to
-* `target`= "_blank", opens the link content in a new webpage
-
-`<FontAwesomeIcon>`
-* `icon="['fab', 'logoName']"`
-  * `logName` is set to value like: facebook, twitter, github, etc
+* it is used to host the URLs to the Social Media platforms, e.g. Twitter, FaceBook, etc
+   * `href` = property which value is the URL of the Social Media to point to
+   * `target`= "_blank", opens the link-content in a new webpage
+   * `<FontAwesomeIcon>` 
+   * it is used to indicate the type of Social Media
+      * `icon="['fab', 'logoName']"`
+      * `logName` is set to value like: facebook, twitter, github, etc

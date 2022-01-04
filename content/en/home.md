@@ -1,7 +1,7 @@
 ---
 title: Home
 description: ''
-position: 10
+position: 50
 category: 'Pages'
 ---
 
