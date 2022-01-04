@@ -1,46 +1,50 @@
 ---
-title: How to ...
+title: How to ... Example
 description: ''
 position: 20
 category: 'GETTING STARTED'
 ---
 ## Overview
-This section provides a step-by-step guideline on how to construct a **TestFest** webpage from scratch.
+This section provides a step-by-step guideline on how to construct the content in the [**TestFest**](https://lwm2m.openmobilealliance.org/testfests/) webpage from scratch.
 
 ## Steps
 1. Create a webpage
-2. Populate the webpage with its properties
-3. Insert containers & `modules`
+2. Populate the webpage with properties
+3. Insert containers & `modules` inside of the `front-matter`
 4. Add free markdown content outside of the `front-matter`
 4. Add a menu to link the new webpage from the navigation or header pannel
 
 ### 1. Create Webpage
-A an empty markdown file called `testfest.md`inside of this folder [oma_github_pages / content](https://github.com/OpenMobileAlliance/oma_github_pages/tree/main/content)
+Inside of this folder [oma_github_pages / content](https://github.com/OpenMobileAlliance/oma_github_pages/tree/main/content), create an empty markdown file called `testfest.md`
 
-The full content of this webapge can be seen in this page [TestFest](https://raw.githubusercontent.com/OpenMobileAlliance/oma_github_pages/main/content/testfests.md)
+The full content of this webapge can be seen on this page, [TestFest](https://raw.githubusercontent.com/OpenMobileAlliance/oma_github_pages/main/content/testfests.md)
 
 ### 2. Add Properties
-Inside of this file insert a `front-matter` property that define the content of the webpage. Add the following lines:
+Inside of this file insert two lines with `---`. This represents a `front-matter` structure. Inside of this structure we need to add the properties that define the content of the webpage. 
+
+Add the following lines:
 
 ```yml
----
+--- # start front-matter
 title: TestFest
 description: information about applying to attend and participating in an OMA TestFest
----
+--- # end front-matter
 ```
 ### 3. Insert Modules
 As we want to insert one or more `modules`, we need to add the `module` property.
 
-```yml[]
----
+```yml
+---  # start front-matter
 title: TestFest
 description: bla bla
 modules:
----
+--- # end front-matter
 ```
 In this step we will extend the content inside of the `front-matter` by adding the following `modules`, in this order and indented to the right of the property `modules`:
 
-> Note: in this example containers are stuck one on top of each other and they contains a single `module` inside. In other cases, a container may contain one or more `modules`
+> Note: in this example containers are stuck one on top of each other and they contain a single `module`. In other cases, a container may contain one or more `modules`.
+
+Insert a `text` module:
 
 * Text Module - `RowText`
 
@@ -53,6 +57,7 @@ modules:
           * Line 1
           ** Line 2
 ```
+Insert a `separator` module:
 
 * Separator Module - `RowSeparator`
 Next, insert a module to separate the above and the below `modules`
@@ -63,6 +68,7 @@ Next, insert a module to separate the above and the below `modules`
     size: S # provide XS, S, M, L, XL spacing between modules
 
 ```
+Insert a `tex/image` module:
 
 * Text & Image Module - `RowTextImage`
 Insert a `module` with `text` and a `image` just below the `RowSeparator`
@@ -76,6 +82,7 @@ Insert a `module` with `text` and a `image` just below the `RowSeparator`
     status:  # 'second-wide' it is an optional value, it establish a framework around the image
     text: # insert the markdown text for this module. In this case it is empty. This module RowTextImage was used to center the image.
 ```
+Insert a `separator` module:
 
 * Separator Module - `RowSeparator`
 Next, insert a module to separate the above and the below `modules`
@@ -86,6 +93,8 @@ Next, insert a module to separate the above and the below `modules`
     size: S # provide XS, S, M, L, XL spacing between modules
 
 ```
+Insert a `text` module:
+
 * Text Module - `RowText`
 
 ```yml
@@ -97,6 +106,7 @@ modules:
           * Line 1
           ** Line 2
 ```
+Insert a `separator` module:
 
 * Separator Module - `RowSeparator`
 Next, insert a module to separate the above and the below `modules`
@@ -107,6 +117,8 @@ Next, insert a module to separate the above and the below `modules`
     size: S # provide XS, S, M, L, XL spacing between modules
 
 ```
+Insert a `text` module:
+
 * Text Module - `RowText`
 
 ```yml
@@ -118,9 +130,10 @@ modules:
           * Line 1
           ** Line 2
 ```
+Insert a `separator` module:
 
 * Separator Module - `RowSeparator`
-Next, insert a module to separate the above from any other content outside of the `front-matter`
+Next, insert a module to separate the above moudle from other content outside of the `front-matter`
 
 ```yml
   -  # start with a '-' indented to the right inside of modules
@@ -170,3 +183,5 @@ Insert a new menu item between the **Resources** and the **Specifications** menu
            url: /testfest/  # name of the markdown file without .md extension
            class: text-uppercase
 ```
+
+The content of this webpage can be be foudn here, [TestFest](https://raw.githubusercontent.com/OpenMobileAlliance/oma_github_pages/main/content/testfests.md).
