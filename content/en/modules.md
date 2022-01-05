@@ -5,16 +5,19 @@ position: 15
 category: 'GETTING STARTED'
 ---
 ## Overview
+This section provides a list of existing `modules` and its content type.
+New `modules` are being developed by the open-source [Standardards Code]().
+
 ## Content Type
 As previously indicated the basic type of content inside of a `module` could be:
 
-* text,
-* image,
-* text & image,
-* table (each cell on the table can contain inside another container)
-* empty-line
-* blog-card
-* news-card
+* `text`,
+* `image`,
+* `text & image`,
+* `table` (each cell on the table can contain inside another container)
+* `empty-line`
+* `blog-card`
+* `news-card`
 
 > Note: the `module` name `Row+containerType` provides an indication what is inside of the module, e.g. a `module` with the name `RowTextImage`contains `text` on the left-hand and an `image` on the right-hand. A `module` called `RowText` only contains text.
 
@@ -86,7 +89,8 @@ List of available modules:
             <td><a href="./#rownewlist" target="_blank">RowNewList</a></td>
             <td>
                   <ul>
-                        <li>It is normally used as a submodule inside of <a href="./#rowmulticolumns" target="_blank">RowMultiColumns</a> module</li>
+                        <li>It is used to provide a sub-list of the [**News**](https://lwm2m.openmobilealliance.org/news/)</li>
+                        <li>It also can be used as a submodule inside of <a href="./#rowmulticolumns" target="_blank">RowMultiColumns</a> module</li>
                         <li><a href="#rownewlist" >See example</a></li>
                   </ul>
             </td>
@@ -95,7 +99,8 @@ List of available modules:
             <td><a href="./#rowbuttongrid" target="_blank">RowButtonGrid</a></td>
             <td>
                   <ul>
-                        <li>It is normally used as a submodule inside of <a href="./#rowmulticolumns" target="_blank">RowMultiColumns</a> module</li>
+                        <li>It is used to introduce one or more columns of information presented inside of buttons or bubbles.</li>
+                        <li>It also can be used as a submodule inside of <a href="./#rowmulticolumns" target="_blank">RowMultiColumns</a> module</li>
                         <li><a href="#rowbuttongrid" >See example</a></li>
                   </ul>
             </td>
@@ -104,7 +109,8 @@ List of available modules:
             <td><a href="./#rowevents" target="_blank">RowEvents</a></td>
             <td>
                   <ul>
-                        <li>It is normally used as a submodule inside of <a href="./#rowmulticolumns" target="_blank">RowMultiColumns</a> module</li>
+                        <li>It is used to create a wider column that lists events.</li>
+                        <li>It also can be used as a submodule inside of <a href="./#rowmulticolumns" target="_blank">RowMultiColumns</a> module</li>
                         <li><a href="#rowevents">See example</a></li>
                   </ul>
             </td>

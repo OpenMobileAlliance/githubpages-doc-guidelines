@@ -165,23 +165,3 @@ category: 'GETTING STARTED'
         * if the value of this property is set to *ml-auto* then, XXXX
 
 ## F.A.Q
-
-
-## OMA Website
-
-On the top `menus` there is a link called [`OMA Website`](https://omaspecworks.org/). This is a link that points to the OMA Website (WordPress). 
-
-![image](https://user-images.githubusercontent.com/3258579/145714818-ed1e695a-81b7-4b2a-8ae4-b4df5345ce26.png)
-
-
-
-* Script: 
----
-    - 
-      title: OMA Website
-      description: 
-      url: http://www.openmobilealliance.org/
-      target: _blank
-      class: text-uppercase
-    -
----
