@@ -8,7 +8,7 @@ category: 'GETTING STARTED'
 This section describes the framework used to construct this website.
 
 ## Framework
-`StandardsCode` Open-Source project, is developing [`modules`]() that can be easily inserted in markdown files. Using the [NUTXT.js]() framework the content on these markdonw files are as webpages using GitHub Pages.
+`StandardsCode` Open-Source project, is developing [`modules`]() - *written in ymal format* - that can be easily inserted in markdown files. Using the [NUTXT.js]() framework the content on these markdonw files are converted into static HTML pages rendered using GitHub Pages as a host server.
 
 <figure>
       <img  src="images/website-framework.svg" alt="Website Framework">
@@ -24,4 +24,4 @@ It is an open-source model-view-viewmodel front end JavaScript framework for bui
 It is a free and open-source web application framework based on [Vue.js](), [Node.js](), [Webpack]() and [Babel.js]().
 
 ### Standards Code
-It is an open-source web application framework that extends [Nutx.js]() by defining `modules` that represent content in a webpage.
+It is an open-source web application framework that extends [Nutx.js]() by defining `modules` inserted into the `front-matter` of markdown files. The content on these `modules` are configuration values, written as a pair key:value. This configuration content is converted by [Nutx.js]() into static HTML pages that are hosted by GitHub Pages.
