@@ -5,14 +5,14 @@ position: 20
 category: 'GETTING STARTED'
 ---
 ## Overview
-This section provides a step-by-step guideline on how to construct the content in the [**TestFest**](https://lwm2m.openmobilealliance.org/testfests/) webpage from scratch.
+This section provides a step-by-step guidelines on how to build the [**TestFest**](https://lwm2m.openmobilealliance.org/testfests/) webpage.
 
 ## Steps
 1. Create a webpage
 2. Populate the webpage with properties
 3. Insert containers & `modules` inside of the `front-matter`
 4. Add free markdown content outside of the `front-matter`
-4. Add a menu to link the new webpage from the navigation or header pannel
+4. Add a menu entry to link the new webpage
 
 ### 1. Create Webpage
 Inside of this folder [oma_github_pages / content](https://github.com/OpenMobileAlliance/oma_github_pages/tree/main/content), create an empty markdown file called `testfest.md`
@@ -20,7 +20,7 @@ Inside of this folder [oma_github_pages / content](https://github.com/OpenMobile
 The full content of this webapge can be seen on this page, [TestFest](https://raw.githubusercontent.com/OpenMobileAlliance/oma_github_pages/main/content/testfests.md)
 
 ### 2. Add Properties
-Inside of this file insert two lines with `---`. This represents a `front-matter` structure. Inside of this structure we need to add the properties that define the content of the webpage. 
+Inside of this file insert two lines with `---`. The content between these two lines is called the `front-matter`. Inside of this structure, we will add the `modules` and properties that define the content of the [TestFest](https://raw.githubusercontent.com/OpenMobileAlliance/oma_github_pages/main/content/testfests.md)webpage. 
 
 Add the following lines:
 
@@ -40,9 +40,9 @@ description: bla bla
 modules:
 --- # end front-matter
 ```
-In this step we will extend the content inside of the `front-matter` by adding the following `modules`, in this order and indented to the right of the property `modules`:
+In this step we will extend the content inside of the `front-matter` by adding the `modules` listed below. The `modules` are indented to the right of the property `modules`:
 
-> Note: in this example containers are stuck one on top of each other and they contain a single `module`. In other cases, a container may contain one or more `modules`.
+> Note: in this example the containers are stuck one on top of each other and  contain a single `module`. In other cases, a container may contain one or more `modules`.
 
 Insert a `text` module:
 
@@ -71,7 +71,7 @@ Next, insert a module to separate the above and the below `modules`
 Insert a `tex/image` module:
 
 * Text & Image Module - `RowTextImage`
-Insert a `module` with `text` and a `image` just below the `RowSeparator`
+Insert a `module` with `text` and an `image` just below the `RowSeparator`
 
 ```yml
   -  # start with a '-' indented to the right inside of modules
@@ -133,7 +133,7 @@ modules:
 Insert a `separator` module:
 
 * Separator Module - `RowSeparator`
-Next, insert a module to separate the above moudle from other content outside of the `front-matter`
+Next, insert a module to separate the above module from the content outside of the `front-matter`
 
 ```yml
   -  # start with a '-' indented to the right inside of modules
@@ -142,9 +142,9 @@ Next, insert a module to separate the above moudle from other content outside of
 
 ```
 ### 4. Add Markdown
-Inside of the `front-matter` the content is written as pair key-value following a `yaml` file strcture, which describes the properties and its values.
+As seen above, inside of the `front-matter` the content is written as pair key-value following a `yaml` file strcture, which describes the properties and its values.
 
-Outside of the `front-matter` we can write `markdown` text. This give us a great flexibility to write any markdown content as describe in this [markdown_constructors](https://standards-hub.github.io/markdown_constructors/) website.
+Outside of the `front-matter` it is possible to write `markdown` and `HTML`directly. This give us a great flexibility to write any content as described in this [markdown_constructors](https://standards-hub.github.io/markdown_constructors/) website.
 
 ```yml
 --- # close the `front-matter`
@@ -170,7 +170,7 @@ Insert a new menu item between the **Resources** and the **Specifications** menu
       url: /testfests/  # the name of the file without the .md extension
       class: text-uppercase  # this property will display the menu name on uppercase
 ```
-> Note: to insert TestFest a submenu then use the property `items` and indent to the right the content of the submenu. For example to insert **TestFests** a submenu inside of the **Information** menu:
+> Note: to insert TestFest as a submenu use the property `items`. For example to insert **TestFests** a submenu inside of the **Information** menu:
 
 ```yml
     - 
@@ -184,4 +184,4 @@ Insert a new menu item between the **Resources** and the **Specifications** menu
            class: text-uppercase
 ```
 
-The content of this webpage can be be foudn here, [TestFest](https://raw.githubusercontent.com/OpenMobileAlliance/oma_github_pages/main/content/testfests.md).
+The content of this webpage can be be found in [TestFest](https://raw.githubusercontent.com/OpenMobileAlliance/oma_github_pages/main/content/testfests.md).

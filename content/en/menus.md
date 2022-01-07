@@ -12,14 +12,18 @@ category: 'GETTING STARTED'
 </figure>
 
 ## Display
+This image depictures the menu section of the [lwm2m.openmobilealliance.org](https://lwm2m.openmobilealliance.org/) website.
 
-![image](https://user-images.githubusercontent.com/3258579/147700449-8e01fe87-9b17-43ef-9b4b-21834ba86bdb.png)
+![image](https://user-images.githubusercontent.com/3258579/148471037-35e764d5-4627-40e3-93d1-476713de6771.png)
+
 
 ## Code
 
-* Location: ['oma_github_pages / content / menus.md'](https://raw.githubusercontent.com/OpenMobileAlliance/oma_github_pages/main/content/menus.md)
+The website `logo` can be found in [oma_github_pages / static / images / logo1.png](https://github.com/OpenMobileAlliance/oma_github_pages/blob/main/static/images/logo1.jpg), and the file that contains the `menus` & `submenus` in [oma_github_pages / content / menus.md](https://raw.githubusercontent.com/OpenMobileAlliance/oma_github_pages/main/content/menus.md)
 
-```yml[oma_github_pages / content / menus.md]
+This is the code for the webisite menus:
+
+```yml [oma_github_pages / content / menus.md]
 --- # start of front-matter
   component: Navbar
   description: this file is dedicated to menus
@@ -72,24 +76,15 @@ category: 'GETTING STARTED'
       class: ml-auto
 --- # end of the front-matter
 ```
-### Properties
-
-`logo`
-
-* location: [oma_github_pages / static / images / logo1.png]()
-
-`menus` & `submenus`
-
-  * location: [oma_github_pages / content / menus.md]()
-
 ### Structure
+This is the `menu` structure:
 
 ```yml
 ---  # always start with a `-`
     component:
     description:
-    menus:
-      - # use these properties to define a menu
+    menus: # this property indicates the begining of the menus
+      -    # use these properties to define a particular menu
         title:
         description:
         url:
@@ -118,7 +113,7 @@ category: 'GETTING STARTED'
 ---
 ```
 
-### Description
+### Properties
 
 * `component`: **Navbar**
 * `description`
@@ -135,18 +130,23 @@ category: 'GETTING STARTED'
             * **local** link:
                 * the format for local URLs is:  `/`nameOfFileMenu`/`
             * **external** link:
-                * Glogal URL that the menu should be pointing to
+                * Global URL that the menu points to ,e.g.: https://guidelines.openmobilealliance.org/ 
     * `target`
-        * it is an optional 
-        * if this property is set to a value *_blank*. It will open the link in a new webpage
+        * it is an optional property
+        * if it is set to *_blank*. It will open the link in a new webpage
     * `class`
-        * if the value *text-uppercase* is inserted, then the menus appear in capital letters
+        * if the value *text-uppercase* is inserted, then the menu text will appear in capital letters
     * `items`
-        * this property is a wrapper that encloses the properties to define a submenu insider of a defined menu
+        * this property is a wrapper that encloses the submenus properties
         * `title`
             * indicates the title of the submenu
         * `url`
-            * indicates where the submenu should be pointing to
+            * indicates the URL where the submenu should be pointing to
+            * The URL link can be:
+              * **local** link:
+                * the format for local URLs is:  `/`nameOfSubFileMenu`/`
+              * **external** link:
+                * Global URL that the menu points to ,e.g.: https://guidelines.openmobilealliance.org/ 
         * `class`
             * if the value of this property is set to *text-uppercase*, then the submenu will appear in capital letters
 
@@ -156,7 +156,7 @@ category: 'GETTING STARTED'
     * `icon`
         * all the icons on this website are stored outside of the GitHub in [XXX]()
     * `url`
-        * this property indicates the URL where the icon should point to
+        * this property indicates the URL where the icon should be pointing to
     * `target`
         * this property has two values:
             * empty: it opens the link on the current webpage

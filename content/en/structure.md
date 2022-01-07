@@ -8,7 +8,7 @@ category: 'GETTING STARTED'
 This section describes the structure and the components of the [lwm2m.openmobilealliance.org](https://lwm2m.openmobilealliance.org/) website.
 
 ## Website Structure
-The image below depictres the website structure for [lwm2m.openmobilealliance.org](https://lwm2m.openmobilealliance.org/).
+The image below depictures the website structure for [lwm2m.openmobilealliance.org](https://lwm2m.openmobilealliance.org/).
 
 * Header
 * Pages
@@ -29,9 +29,9 @@ The content of this block contains clickable items such as [`logo`](), [`menus`]
 The main placeholder for the content is the `page`, a markdown file such as [structure.md]().
 A `page` is formed by `containers` that are boxes stacked one of top of each other and spreaded across the width of the webpage. Each `container` can hold one or more `modules`. The basic type of content that can be inserted inside of a `module` are: `image`, `text`, `table`, `blank-separator`, `news-card`, `blog-card`, etc.
 
-Inside of a `container` is possible to insert a `module` which in turn contains another `modules`. The above image depictures an example where one `container` holds a `module`, called `rowMultiColumns` - a table with two columns - in one of the columns is inserted a `rowNewList` module and in other column is inserted a `rowButtonGrid` module.
+Inside of a `container` is possible to insert a `module` which in turn contains another `modules`. The above image depictures an example where one `container` holds a `module`, called `RowMultiColumns` - a table with two columns - in one of the columns is inserted another module `RowNewList` and in other column is inserted a `RowButtonGrid` module.
 
-It also possible to concatenate two `modules` inside of a `container`, e.g. a text section on the left followed by an image to the right, called `rowTextImage` or the reserve an image to the left followed by a text to the right, called `rowImageText`. These type of concatenated `modules` are represented as a single `module`.
+It also possible to combine two `modules` inside of a `container`, e.g. `RowTextImage` is a module that provides a text area on the left-hand side and  an image on the right-hand side. Another module, `RowImageText` provides the opposite, an area for an image on the left-hand and a text area on the right-hand side. The space taken by the `text` or `image` area is controlled by a property called `cols`; which value goes from **1** to **12**.
 
 
 ### Footer
@@ -78,10 +78,13 @@ This is the code that describes the content of the `footer`:
 
 #### Properties
 `<b-nav-item>`
-* it is used to host the URLs to the Social Media platforms, e.g. Twitter, FaceBook, etc
+* this element is used to store the Social Media platforms URLs, e.g. Twitter, FaceBook, etc. 
+* the properties are:
    * `href` = property which value is the URL of the Social Media to point to
    * `target`= "_blank", opens the link-content in a new webpage
    * `<FontAwesomeIcon>` 
-   * it is used to indicate the type of Social Media
+   * this elment is used to indicate the type of Social Media its icon.
       * `icon="['fab', 'logoName']"`
       * `logName` is set to value like: facebook, twitter, github, etc
+
+* insert a new `<b-nav-item>` element and its properties to add a new Social Media link
