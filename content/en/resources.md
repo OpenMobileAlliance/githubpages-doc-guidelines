@@ -27,20 +27,20 @@ The properties that define this page, are inserted inside of the `front-matter` 
 * `modules`:
     * the modules that define the content of the page are indented to the right of the property `module`, and are listed below.
 
-    * [`RowText`](https://raw.githubusercontent.com/OpenMobileAlliance/oma_github_pages/main/content/resources.md)
+    * [`RowText`](https://openmobilealliance.github.io/githubpages-doc-guidelines/RowText)
         * It is used to introduce the content listed in the table
         * the properties of this module are:
             * `name`: RowText
             * `text`: start with the symbol `|` follow by markdown text
 
-    * [`RowSeparator`](https://raw.githubusercontent.com/OpenMobileAlliance/oma_github_pages/main/content/resources.md)
+    * [`RowSeparator`](https://openmobilealliance.github.io/githubpages-doc-guidelines/RowSeparator)
         * it provides a gap or space between the above and the below `modules`
         * the properties for this module are:
             * `name`: RowSeparator
             * `size`: S 
                 * this value provides the a small gap between modules other options are: XS, M, L, XL spacing
 
-    * ['RowDynamicTable'](https://raw.githubusercontent.com/OpenMobileAlliance/oma_github_pages/main/content/resources.md)
+    * ['RowDynamicTable'](https://openmobilealliance.github.io/githubpages-doc-guidelines/RowDynamicTable)
     * This container introduces a `module` that is a table with filtering, searching and pagination functionaly
     * the table is defined by this properties:
         * `name`: RowDynamicTable
