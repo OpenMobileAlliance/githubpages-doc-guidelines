@@ -15,63 +15,55 @@ The image below depictures the content displayed on this page broken down into `
 ![image](https://user-images.githubusercontent.com/3258579/147799164-c9e3c40e-3819-40ce-ba9b-8b4b098484ff.png)
 
 ## Structure
-**Location**: [oma_github_pages / content / testfest.md](https://raw.githubusercontent.com/OpenMobileAlliance/oma_github_pages/main/content/testfests.md)
+The code for this webpage can be found in [oma_github_pages / content / testfest.md](https://raw.githubusercontent.com/OpenMobileAlliance/oma_github_pages/main/content/testfests.md)
 The properties, inside of the `front-matter` that define the content of the page are:
  
 * `title`:  **TestFest**
-
 * `description`: provides a description on the content of this page
-
 * `modules`:
     * the modules that define the content of the page are indented to the left of the module property, and are listed in the next section.
+        * [`RowText`](https://raw.githubusercontent.com/OpenMobileAlliance/oma_github_pages/main/content/testfests.md)
+            * The properties are:
+                * `name`: **RowText**
+                * `text`:
+                    * as the text is extended over more than one line, the symbol `|` MUST be added at the begining 
+                    * the content is written in markdonw language
+        * [`RowSeparator`](https://raw.githubusercontent.com/OpenMobileAlliance/oma_github_pages/main/content/testfests.md)
+            * The properties are:
+                * `name`: **RowSeparator**
+                * `size`: S #provide XS, S, M, L, XL spacing between two `modules`
 
-### Modules
-This page contains the following modules:
+        * [`RowTextImage`](https://raw.githubusercontent.com/OpenMobileAlliance/oma_github_pages/main/content/testfests.md)
+            * The properties are:
+                * `name`: RowTextImage
+                * `cols`: 1, this implies that text is taken the space of 1 column out of 12 possible columns
+                * `image`: the value is the location of the image, e.g.: i*mages/events.png*
+                * `title`: title of the module
+                * `status`: this is an optional value if set to *second*, then the images will be extended
+                * `text`: provides the content for the text, if the symbol `|` is inserted then it is possible to add multiple markdown lines.
+        * [`RowSeparator`](https://raw.githubusercontent.com/OpenMobileAlliance/oma_github_pages/main/content/testfests.md)
+            * The properties for this `module` are defined above
 
-**Inside of the `front-matter`**
+        * [`RowText`](https://raw.githubusercontent.com/OpenMobileAlliance/oma_github_pages/main/content/testfests.md)
+            * The properties are:
+                * `name`: **RowText**
+                * `text`:
+                    * as the text is extended over more than one line, the symbol `|` MUST be added at the begining 
+                    * the content is written in markdonw language
 
-* [`RowText`](https://raw.githubusercontent.com/OpenMobileAlliance/oma_github_pages/main/content/testfests.md)
-    * The properties are:
-        * `name`: **RowText**
-        * `text`:
-            * as the text is extended over more than one line, the symbol `|` MUST be added at the begining 
-            * the content is written in markdonw language
-* [`RowSeparator`](https://raw.githubusercontent.com/OpenMobileAlliance/oma_github_pages/main/content/testfests.md)
-    * The properties are:
-        * `name`: **RowSeparator**
-        * `size`: S #provide XS, S, M, L, XL spacing between two `modules`
+        * [`RowSeparator`](https://raw.githubusercontent.com/OpenMobileAlliance/oma_github_pages/main/content/testfests.md)
+            * The properties for this `module` are defined above
 
-* [`RowImage`](https://raw.githubusercontent.com/OpenMobileAlliance/oma_github_pages/main/content/testfests.md)
-    * The properties are:
-        * `name`:
-        * `cols`:
-        * `image`:
-        * `title`:
-        * `status`:
+        * [`RowText`](https://raw.githubusercontent.com/OpenMobileAlliance/oma_github_pages/main/content/testfests.md)
+            * The properties are:
+                * `name`: **RowText**
+                * `status`: this property is set to the value **second** which provides a `background-color` to the text `module`
+                * `text`:
+                    * as the text is extended over more than one line, the symbol `|` MUST be added at the begining 
+                    * the content is written in markdonw language to define a registration area
 
-* [`RowSeparator`](https://raw.githubusercontent.com/OpenMobileAlliance/oma_github_pages/main/content/testfests.md)
-    * The properties for this `module` are defined above
-
-* [`RowText`](https://raw.githubusercontent.com/OpenMobileAlliance/oma_github_pages/main/content/testfests.md)
-    * The properties are:
-        * `name`: **RowText**
-        * `text`:
-            * as the text is extended over more than one line, the symbol `|` MUST be added at the begining 
-            * the content is written in markdonw language
-
-* [`RowSeparator`](https://raw.githubusercontent.com/OpenMobileAlliance/oma_github_pages/main/content/testfests.md)
-    * The properties for this `module` are defined above
-
-* [`RowText`](https://raw.githubusercontent.com/OpenMobileAlliance/oma_github_pages/main/content/testfests.md)
-    * The properties are:
-        * `name`: **RowText**
-        * `status`: this property is set to the value **second** which provides a `background-color` to the text `module`
-        * `text`:
-            * as the text is extended over more than one line, the symbol `|` MUST be added at the begining 
-            * the content is written in markdonw language to define a registration area
-
-* [`RowSeparator`](https://raw.githubusercontent.com/OpenMobileAlliance/oma_github_pages/main/content/testfests.md)
-    * The properties for this `module` are defined above
+        * [`RowSeparator`](https://raw.githubusercontent.com/OpenMobileAlliance/oma_github_pages/main/content/testfests.md)
+            * The properties for this `module` are defined above
 
 
 **Outside of the `front-matter`**
