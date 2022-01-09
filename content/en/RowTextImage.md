@@ -10,12 +10,12 @@ The space taken by the `text` is controlled by the property `cols`. The value of
 
 ## Display
 
-This is how `RowTextImage` is rendered in a webpage:
+This is how the `RowTextImage` module is rendered in a webpage:
 
 <img width="1124" alt="image" src="https://user-images.githubusercontent.com/3258579/146674537-f07848b0-fed1-4f1a-b84b-aace9a5672f3.png">
 
 ## Use
-This table describes what `RowTextImage` module is and how to use it.
+This table describes what the `RowTextImage` module is and how to use it.
 
 <table>
 <thead>
@@ -67,7 +67,10 @@ This is how `RowTextImage` is written in Markdown:
    status:
    text:
 ```
+This is an example of a [`RowTextImage`](https://raw.githubusercontent.com/OpenMobileAlliance/oma_github_pages/main/content/index.md) module.
+
 ### Description
+
 `name`: **RowTextImage**
 
 `cols`: 

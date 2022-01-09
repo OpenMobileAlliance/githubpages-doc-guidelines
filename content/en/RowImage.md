@@ -8,12 +8,12 @@ category: 'MODULES'
 
 ## Display
 
-This is how `RowImage` is rendered in a webpage:
+This is how a `RowImage` module is rendered in a webpage:
 
 <img width="1130" alt="image" src="https://user-images.githubusercontent.com/3258579/146674618-8a39d80f-325d-4de6-b17d-2fe36474a12b.png">
 
 ## Use
-This table describes what is and how to use `RowImage` module.
+This table describes what is and how to use the `RowImage` module.
 
 <table>
 <thead>
@@ -24,11 +24,10 @@ This table describes what is and how to use `RowImage` module.
 </thead>
 <tbody>
       <tr>
-            <td><a href="./#rowimage" target="_blank">RowImage</a></td>
+            <td><b>RowImage</b></td>
             <td>
                   <ul>
                         <li>This module is used to insert an <b><i>image</i></b> that goes across the screen width</li>
-                        <li><a href="#rowimage" >See example</a></li>
                   </ul>
             </td>
       </tr>
@@ -38,7 +37,7 @@ This table describes what is and how to use `RowImage` module.
 
 
 ## Code
-This is how `RowImage` is written in Markdown:
+This is how a `RowImage` module is written in markdown:
 
 ```md [oma_github_pages/content/index.md]
   -
@@ -47,28 +46,26 @@ This is how `RowImage` is written in Markdown:
     image: "/images/events.png"
     title: separator
     status: # optional, `border-image` restricts the image to a window X, Y
-
 ```
+This is an example of a [`RowImage`](https://raw.githubusercontent.com/OpenMobileAlliance/oma_github_pages/main/content/faq.md).
+
 ## Properties
 ### Structure
 ```yml
 -  # always start with a `-`
    name:
-   cols:
    image:
    title: 
    status:
 ```
 
 ### Description
-`name`: **RowImage**
+These are the properties of the `RowImage` module: 
 
-`cols`: 
-* integer from 1 to 12, that indicates the width space taken by the image
+`name`: **RowImage**
 
 `image`:
 * location of the image, by the fault all the images MUST be place inside of the folder `static/images/`
-
 
 `title`: 
 * it provides a title to the image

@@ -5,7 +5,7 @@ position: 105
 category: 'MODULES'
 ---
 ## Overview
-When building a page sometimes is necessary to separate one `container` from the other with an empty line. The high of the empty line between two consecutive `containers` can be adjusted with the property `size`
+When building a webpage sometimes is necessary to separate one `container` from the other with an empty line. The high of the empty line between two consecutive `containers` can be adjusted with the property `size`.
 
 The `RowSepartor` allows to establish a gap between two consecutive `containers`.
 
@@ -16,7 +16,7 @@ The `RowSepartor` allows to establish a gap between two consecutive `containers`
 <img width="1180" alt="image" src="https://user-images.githubusercontent.com/3258579/146674402-d8cb7185-e767-4dfb-9a66-79ead6430c44.png">
 
 ## Use
-This table describes what is and how to use `RowSeparator` module.
+This table describes what is and how to use the `RowSeparator` module.
 
 <table>
 <thead>
@@ -27,10 +27,10 @@ This table describes what is and how to use `RowSeparator` module.
 </thead>
 <tbody>
       <tr>
-            <td><a href="./#rowseparator" target="_blank">RowSeparator</a></td>
+            <td><b>RowSeparator</b></td>
             <td>
                <ul>
-                  <li>It is used to insert en empty line. </li>
+                  <li>It is used to insert an empty line or space between two consecutive modules </li>
                   <li>It is possible to control the high of the line by using the <b><i>size</i></b> property and a value: </li>
                         <ul>
                               <li><b><i>XS</i></b> : extra small empty line</li>
@@ -54,6 +54,7 @@ This is how to insert a `RowSeparator` in a Markdonw file:
     name: RowSeparator
     size: S #provide XS, S, M, L, XL spacing between component
 ```
+This is an example of a [`RowSeparator`](https://raw.githubusercontent.com/OpenMobileAlliance/oma_github_pages/main/content/index.md)
 ## Properties
 ### Structure
 

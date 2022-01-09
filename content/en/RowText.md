@@ -5,7 +5,7 @@ position: 110
 category: 'MODULES'
 ---
 ## Overview
-This module inserts one or more text (Markdown) paragraphs. The text covers the width of the page.
+This module inserts one or more text paragraphs in markdown language. The text covers the width of the page.
 
 ## Display
 
@@ -24,11 +24,10 @@ This table describes what is and how to use `RowText` module.
 </thead>
 <tbody>
       <tr>
-            <td><a href="./#rowtext" target="_blank">RowText</a></td>
+            <td><b>RowText</b></td>
             <td><ul>
-                  <li>it is used to insert text, one ore more paragraphs</li>
+                  <li>it is used to insert text, one ore more paragraphs in markdown languge</li>
                   <li>If multiple text lines are needed, then insert `|` symbol and then write Markdown content across multiple lines.</li>
-                  <li><a href="#rowtex" >See example</a></li>
                 </ul>
             </td>
       </tr>
@@ -36,7 +35,7 @@ This table describes what is and how to use `RowText` module.
 </table>
 
 ## Code
-This is how to insert a `RowText` module in a Markdown file:
+This is how to insert a `RowText` module in a markdown file:
 
 ```md [oma_github_pages/content/index.md]
   -
@@ -45,6 +44,8 @@ This is how to insert a `RowText` module in a Markdown file:
       ### Open Mobile Alliance - [DMSE](https://omaspecworks.org/about/the-oma-specworks-work-program/device-management-and-service-enablement-working-group/) / [IPSO](https://omaspecworks.org/about/the-oma-specworks-work-program/ipso-smart-objects-working-group/) Working Groups
       These GitHub pages are dedicated to DMSE/IPSO Working Groups.
 ```
+This is an example of a [`RowSeparator`](https://raw.githubusercontent.com/OpenMobileAlliance/oma_github_pages/main/content/index.md)
+
 ## Properties
 ### Structure
 
