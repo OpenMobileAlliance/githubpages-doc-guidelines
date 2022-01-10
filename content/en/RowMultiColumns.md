@@ -5,7 +5,8 @@ position: 150
 category: 'MODULES'
 ---
 ## Overview
-This `module` is use to insert a table inside of the `container`. The property `cols` is used to define the number of columns of the table and the property `widths` is used to define the width of each column. The total width of the `container` is of `12` columns. The additon of all the values inserted in the `widths` property MUST be equal to `12`.
+This `module` is use to insert a table inside of the `container`. The property `cols` is used to define the number of columns of the table and the property `widths` is used to define the width of each column. The total width of the `container` out of `12` columns. The additon of all the values inserted in the `widths` property MUST be equal to `12` in order to keep the table rendered correctly. 
+At the same time each column of the table can contain its own `module`.
 
 ## Display
 
@@ -25,11 +26,12 @@ This table describes what `RowMultiColumns` is and how to use it.
 </thead>
 <tbody>
       <tr>
-            <td><a href="./#rowmulticolumns" target="_blank">RowMultiColumns</a></td>
+            <td><b>RowMultiColumns</b></td>
             <td><ul>
-                  <li>It is used to insert a table</li>
-                  <li>Each table column can contain any of the defined modules</li>
-                  <li><a href="#rowmulticolumns" >See example</a></li>
+                  <li>It is used to insert a table on the webpage, which width can be an equivalent to 12 columns</li>
+                  <li>Each column of the table can contain any module defined on these guideliens</li>
+                  <li>The width of each column of the table is controlled by a property called <i>width</i>. The additions of the columns width MUST be <b>12</b> or less </li>
+                  <li>The property <i>columns</i> is a wrapper to hold the properties that define the column(s) content. Each column will contain its own module </li>
                 </ul>
             </td>
       </tr>
@@ -38,7 +40,10 @@ This table describes what `RowMultiColumns` is and how to use it.
 
 ## Code
 
-This is the content of the table written in a markdown file:
+This the code example of a `RowMultiColumns` module written  in a markdown file:
+In this example, the table contains **12** columns allocated as follow:
+* the first column takes an space of **2** columns out of **12** possible columns and it contains the [`RowNewList`](/RowNewList.md) module
+* the second columns takes an space of **8** columns out of **12** possible columns and it contains the [`RowButtonGrid`](/RowButtonGrid.md) module, which is another table that contains **5** columns in the space allocated to the second column, with a width of **8** columns
 
 ```md
   -
