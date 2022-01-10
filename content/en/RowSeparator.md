@@ -39,7 +39,6 @@ This table describes what is and how to use the `RowSeparator` module.
                               <li><b><i>L</i></b> : large empty line</li>
                               <li><b><i>XL</i></b> : extra large empty line</li>
                         </ul>
-                  <li><a href="#rowseparator" >See example</a></li>
                 </ul>
             </td>
       </tr>
@@ -47,14 +46,15 @@ This table describes what is and how to use the `RowSeparator` module.
 </table>
 
 ## Code
-This is how to insert a `RowSeparator` in a Markdonw file:
+This is an example of a `RowSeparator` module written in a markdonw file:
 
 ```md [oma_github_pages/content/index.md]
   -
     name: RowSeparator
     size: S #provide XS, S, M, L, XL spacing between component
 ```
-This is an example of a [`RowSeparator`](https://raw.githubusercontent.com/OpenMobileAlliance/oma_github_pages/main/content/index.md)
+This is an example of a [`RowSeparator`](https://raw.githubusercontent.com/OpenMobileAlliance/oma_github_pages/main/content/index.md) module.
+
 ## Properties
 ### Structure
 
