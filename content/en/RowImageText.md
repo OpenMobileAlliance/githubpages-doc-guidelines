@@ -5,7 +5,7 @@ position: 140
 category: 'MODULES'
 ---
 ## Overview
-This module is similar to `RowTextImage` with the difference that the `image` goes on the left-hand side and the `text` on the right-hand side. The width inside of the `container` taken by the `image` is controlled by the property `cols`. The value of this property goes from `1` to `12` columns. The bigger of the number of columns the more space will be dedicated to the `image` and the difference to `12` will be dedicated to the `text`.
+This module is similar to `RowTextImage` with the difference that the `image` goes on the left-hand side and the `text` on the right-hand side. The width inside of the `container` taken by the `image` is controlled by the property `cols`. The value of this property goes from `0` to `12` columns. The bigger of the number of columns the more space will be dedicated to the `image` and the difference to `12` will be dedicated to the `text`.
 
 ## Display
 
@@ -25,11 +25,11 @@ This table desribes what `RowImageText` is and how to use it.
 </thead>
 <tbody>
       <tr>
-            <td><a href="./#rowimagetext" target="_blank">RowImageText</a></td>
+            <td><b>RowImageText</b></td>
             <td>
                   <ul>
-                        <li>This module is representing as a row, with an `image` on the left and `text` on the right</li>
-                        <li><a href="#rowimagetext" >See example</a></li>
+                        <li>This module is represented as a row, with an `image` on the left-hand side and `text` on the right-hand side</li>
+                        <li>The space taken by the `image` on the left-hand side is controlled by the property <i>cols</i>. This property can take a value from 0 to 12. The higher the value the more space is allocated to the `image` and less to the `text` </li>
                   </ul>
             </td>
       </tr>
@@ -38,7 +38,7 @@ This table desribes what `RowImageText` is and how to use it.
 
 ## Code
 
-This is how `RowImageText` is written in Markdown:
+This is an example a `RowImageText` module written in a markdown file:
 
 ```md
   -
@@ -56,7 +56,7 @@ This is how `RowImageText` is written in Markdown:
 
 ## Properties
 ### Structure
-
+These are the properties that controls the content on this module:
 ```yml
 -  # always start with a `-`
   name:
@@ -70,15 +70,15 @@ This is how `RowImageText` is written in Markdown:
 `name`: **RowImageText**
 
 `cols`: 
-* the value of this property is an integer between **1** to **12** that represents columns
-* the larger the number the more space will be dedicated to the `image`` and less space to the `text``
+* the value of this property is an integer between **0** to **12** that represents the columns or space allocated to the `image` content
+* the larger the number the more space will be dedicated to the `image` and less space to the `text` content
 
 `image`: 
 * as in the `RowImage`module, it represents the location of the image, by the fault all the images MUST be place inside of the folder `static/images/`
 
 `status`: 
 * as in the `RowImage` module, it is an optional property
-* `border-image` places a window (X,Y) on top of the image and it trims the image that fall outside of the window
+* if it is set to `border-image` value, it trims off the content of the `image` that fall outside of the window defined by the `border-image`
 
 `text`:
 * as in the `RowText` module, this property contains the markdown text to be displayed by the container

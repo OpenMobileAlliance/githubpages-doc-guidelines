@@ -6,7 +6,7 @@ category: 'MODULES'
 ---
 ## Overview
 This module allows to insert of a container that covers the width of the webpage a `text` paragraph (Markdown language) on the left-hand side and an `image` on the right-hand side.
-The space taken by the `text` is controlled by the property `cols`. The value of `cols` is an integer from 1 to 12. The higher the value, the more space will be dedicated to the `text` part.
+The space taken by the `text` is controlled by the property `cols`. The value of `cols` is an integer from 0 to 12. The higher the value, the more space will be dedicated to the `text` part.
 
 ## Display
 
@@ -30,7 +30,7 @@ This table describes what the `RowTextImage` module is and how to use it.
             <td>
                   <ul>
                         <li>This module is used to represent in a row:`text` on the left-hand side and an `image` on the right-hand side.</li>
-                        <li>The space taken by the `text` is controlled by the property <i>cols</i>. This property can have a value from 1 to 12. The higher the value the more space is dedicated to the `text` portion</li>
+                        <li>The space taken by the `text` is controlled by the property <i>cols</i>. This property can have a value from 0 to 12. The higher the value the more space is dedicated to the `text` portion</li>
                   </ul>
             </td>
       </tr>
@@ -74,7 +74,7 @@ This is an example of a [`RowTextImage`](https://raw.githubusercontent.com/OpenM
 `name`: **RowTextImage**
 
 `cols`: 
-* the value of this property is an integer between **1** to **12** that represents the number of columns taken by the `text` content. The whole row can hold upt to **12** columns.
+* the value of this property is an integer between **0** to **12** that represents the number of columns taken by the `text` content. The whole row can hold upt to **12** columns.
 * the larger the number the more space will be dedicated to the `text` and less to the `image`
 
 `image`: 
