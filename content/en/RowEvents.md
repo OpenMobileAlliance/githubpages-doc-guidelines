@@ -8,7 +8,7 @@ category: 'MODULES'
 
 ## Display
 
-This is how `RowEvents` is rendered in a webpage:
+This is how `RowEvents` module is rendered in a webpage:
 
 <img width="1180" alt="image" src="https://user-images.githubusercontent.com/3258579/146674469-634ef489-c3ac-4f7a-9d44-3a019f827373.png">
 
@@ -24,11 +24,12 @@ This table describes what `RowEvents` is and how to use it.
 </thead>
 <tbody>
       <tr>
-            <td><a href="./#rowevents" target="_blank">RowEvents</a></td>
+            <td><b>RowEvents</b></td>
             <td>
                   <ul>
-                        <li>It is normally used as a submodule inside of <a href="./#rowmulticolumns" target="_blank">RowMultiColumns</a> module</li>
-                        <li><a href="#rowbuttongrid" >See example</a></li>
+                        <li>This module is used to highlight information related to events</li>
+                        <li>The module presents the information in a column, where each row contains a button or bubble with information and a background color</li>
+                        <li>The module can also be used as a submodule inside of e.g.: <a href="https://openmobilealliance.github.io/githubpages-doc-guidelines/RowMultiColumns" target="_blank">RowMultiColumns</a> module</li>
                   </ul>
             </td>
       </tr>
@@ -37,8 +38,9 @@ This table describes what `RowEvents` is and how to use it.
 
 ## Code
 
-This is how `RowEvents` is written in Markdown:
-> Note: in the example below, the `module` is used in of a `RowButtonGrid` and it is defined after the property `cols`.
+This is an example of how a [`RowEvents`](https://raw.githubusercontent.com/OpenMobileAlliance/oma_github_pages/main/content/index.md) module is written in Markdown file:
+
+> Note: in this example, the `module` is used inside of a `RowButtonGrid` which is also inside of a `RowMultiColumns`.
 
 ```md
 - 
