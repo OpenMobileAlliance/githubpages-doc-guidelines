@@ -5,8 +5,8 @@ position: 170
 category: 'MODULES'
 ---
 ## Overview
-It is used to create a table with columns which each cell contains a *button* which background color can be controlled by the `status` property.
-The `module` can be used inside by itself inside of a `container` or as a submodule inside of the e.g. [`RowMultiColumns`](RowMulticolumsn.md).
+This `module` is used to create a table with columns. Each cell of the table contains a *button* or a *bubble* which background color can be controlled by the `status` property.
+The `module` can be used inside of a container by itself or as a submodule inside of the e.g. [`RowMultiColumns`](https://openmobilealliance.github.io/githubpages-doc-guidelines/RowMultiColumns) `module`.
 
 ## Display
 
@@ -26,11 +26,12 @@ This table describes what `RowButtonGrid` is and how to use it.
 </thead>
 <tbody>
       <tr>
-            <td><a href="./#rowbuttongrid" target="_blank">RowButtonGrid</a></td>
+            <td><b>RowButtonGrid</b></td>
             <td>
                   <ul>
-                        <li>It is normally used as a submodule inside of <a href="./#rowmulticolumns" target="_blank">RowMultiColumns</a> module</li>
-                        <li><a href="#rowbuttongrid" >See example</a></li>
+                        <li>This module is used to list one or more columns with buttons or bubbles.</li>
+                        <li>The property <i>status</i> is used to control the background color of the button or bubble</li> 
+                        <li>The module can also be used as a submodule inside of <a href="https://openmobilealliance.github.io/githubpages-doc-guidelines/RowMultiColumns" target="_blank">RowMultiColumns</a> module</li>
                   </ul>
             </td>
       </tr>
@@ -39,7 +40,7 @@ This table describes what `RowButtonGrid` is and how to use it.
 
 ## Code
 
-This is how `RowBottonGrid` is written in Markdown:
+This is an example of how [`RowButtonGrid`](https://raw.githubusercontent.com/OpenMobileAlliance/oma_github_pages/main/content/index.md) module is written in Markdown:
 
 ```md
       -
@@ -203,31 +204,57 @@ This is how `RowBottonGrid` is written in Markdown:
         -
           # repite the properties inside of items for each row to add
 ```
+If the `module` is used as a e.g. submodule inside of `RowMultiColums`, then the structure will be:
+
+```yml
+  -  # always start with a `-`
+    name: RowMultiColumns   # parent module
+    cols: 3  # number of columns
+    widths: [2, 8, 2] # the width of each column of the table
+    modules: # 
+      - 
+        name: RowButtonGrid  # submodule that is presented as a table with buttons or bubbles
+        cols:    # this property doesn't have any value
+          - # these properties define the header of the columns, repeat each time a column is needed
+            title:
+            subtitle:
+            image:
+            items:
+              - # these properties define the content of each row
+                title:
+                subtitle:
+                status:
+                url:
+                target:
+              -
+                # repite the properties inside of items for each row to add
+                # or repite the properties that define the columns
+```
 
 ### Description
 `name`: **RowButtonGrid**
 
 `cols`:
-* this property doesn't have any value, it is used to define the style of the header column as well as the `items` inserted in this column as `cells`
+* this property doesn't have any value, it is followed by the header of the column as well as the `items` inserted in the column as `cells`
 * the properties listed below define the content per column. To add more than one column repite these set of properties, indented to the right of the property `cols`
   * `title`:
     * it provides a *bold* title at the top of the column
   * `subtitle`:
     * it provides an *italic* title below the `title`
   * `image`:
-    * same arrangement as in the `RowMultiColumns`, or `RowNewList` `modules`
+    * same arrangement as in the [`RowMultiColumns`](https://openmobilealliance.github.io/githubpages-doc-guidelines/RowMultiColumns), or [`RowNewList`](https://openmobilealliance.github.io/githubpages-doc-guidelines/RowNewList) `modules`
     * this is an `icon` displayed on top of the `title`
     * the `icon` is stored externally, out side of the repository in XXX
-    * in this case the value of the `image` is a `string` which name represents an `icon` in the above reference
+    * in this case the value of the `image` is a `string` which name represents an `icon` in the above reference, e.g.: *fas cog*
   * `items`:
-    * the following properties are used to define a `button` inside of the column cell
+    * the following properties are used to define a `button` or `bubble` inside of a cell
     * the following items are indented to the right:
       * `title`:
         * this property is used to provide a **bold** title at the top of the `button`
       * `subtitle`:
         * this property is used to provide an `italic` subtitle below the `title` property
       * `status`:
-        * with this property is possible to control the background color of the button, the possible values are:
+        * with this property is possible to control the background color of the *button* or *bubble*, the possible values are:
           * `hightlight`
             * in the CSS this element is configured to be `highlighted`
           * `active`
@@ -240,6 +267,6 @@ This is how `RowBottonGrid` is written in Markdown:
         * optional
         * the value of this property is a global or local URL
       * `target`:
-        * optional which values are empty or `_blank`. The latest value open the content of the URL in a new webpage
+        * optional property, which values are *empty* or `_blank`. The latest value, opens the URL in a new webpage
 
 ## F.A.Q

@@ -5,12 +5,12 @@ position: 160
 category: 'MODULES'
 ---
 ## Overview
-It lists the content inside of the folder **News**. 
-The `module` can be used by itself inside of a `container` or as a `submodule` inside for example a table or [`RowMultiColumns`]() `module`.
+It it used to display a highlight of the content inside of the folder **News**. 
+The `module` can be used by itself inside of a `container` or as a `submodule` inside for example a table or [`RowMultiColumns`](https://openmobilealliance.github.io/githubpages-doc-guidelines/RowMultiColumns) `module`.
 
 ## Display
 
-This is how `RowNewList` module is rendered in webpage:
+This is how `RowNewList` module is rendered in a webpage:
 
 <img width="1180" alt="image" src="https://user-images.githubusercontent.com/3258579/146674445-f5d7f46a-6c3b-4a3d-8962-0f0f680b2511.png">
 
@@ -26,11 +26,12 @@ This table describes what `RowNewList` is and how to use it.
 </thead>
 <tbody>
       <tr>
-            <td><a href="./#rownewlist" target="_blank">RowNewList</a></td>
+            <td><b>RowNewList</b></td>
             <td>
                   <ul>
-                        <li>It is normally used as a submodule inside of <a href="./#rowmulticolumns" target="_blank">RowMultiColumns</a> module</li>
-                        <li><a href="#rownewlist" >See example</a></li>
+                        <li>This module is used to provide a highlight of the **News** available in the News folder </li>
+                        <li>The information provided on the button or bubble are: `title`, `subtitle`, `date`, and `author` of the **News**</li>
+                        <li>It is also used as a submodule inside of <a href="https://openmobilealliance.github.io/githubpages-doc-guidelines/RowMultiColumns" target="_blank">RowMultiColumns</a> module</li>
                   </ul>
             </td>
       </tr>
@@ -39,7 +40,7 @@ This table describes what `RowNewList` is and how to use it.
 
 ## Code
 
-This is how it is written:
+This is an example of how [`RowNewList`](https://raw.githubusercontent.com/OpenMobileAlliance/oma_github_pages/main/content/index.md) is written on a markdown file:
 
 ```md
       - 
@@ -59,6 +60,22 @@ This is how it is written:
   image:
 ```
 
+If the `RowNewList` module is used as a submodule inside of e.g. [`RowMultiColumns`](https://openmobilealliance.github.io/githubpages-doc-guidelines/RowMultiColumns) module, then the structure is:
+
+```yml
+
+-  # always start with a `-`, the next  bloc of properties belong to the RowMultiColumns module
+  name:
+  cols: 2
+  widths: [X, Y]
+  modules:
+    -    # properties of the RowNewList module
+      name:
+      title:
+      subtitle:
+      image:
+```
+
 ### Description
 
 `name`: **RowNewsList**
@@ -73,6 +90,6 @@ This is how it is written:
 * same arrangement as in the `RowMultiColumns` module
 * this is an `icon` displayed on top of the `title`
 * the `icon` is stored externally, out side of the repository in XXX
-* in this case the value of the `image` is a `string` which name represents an `icon` in the above reference
+* in this case the value of the `image` is a `string` which name represents an `icon` in the above reference, e.g.: *fas cube*
 
 ## F.A.Q
