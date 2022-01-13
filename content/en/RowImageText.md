@@ -38,7 +38,7 @@ This table desribes what `RowImageText` is and how to use it.
 
 ## Code
 
-This is an example a `RowImageText` module written in a markdown file:
+This is an [example](https://raw.githubusercontent.com/OpenMobileAlliance/oma_github_pages/main/content/index.md) a `RowImageText` module written in a markdown file:
 
 ```md
   -

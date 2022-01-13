@@ -37,7 +37,7 @@ This table describes what is and how to use the `RowImage` module.
 
 
 ## Code
-This is how a `RowImage` module is written in markdown:
+This is an [example](https://raw.githubusercontent.com/OpenMobileAlliance/oma_github_pages/main/content/faq.md) of how a `RowImage` module is written in markdown:
 
 ```md [oma_github_pages/content/index.md]
   -
@@ -47,7 +47,7 @@ This is how a `RowImage` module is written in markdown:
     title: separator
     status: # optional, `border-image` restricts the image to a window X, Y
 ```
-This is an example of a [`RowImage`](https://raw.githubusercontent.com/OpenMobileAlliance/oma_github_pages/main/content/faq.md).
+This is an example of a [`RowImage`]().
 
 ## Properties
 ### Structure

@@ -5,14 +5,18 @@ position: 150
 category: 'MODULES'
 ---
 ## Overview
-This `module` is use to insert a table inside of the `container`. The property `cols` is used to define the number of columns of the table and the property `widths` is used to define the width of each column. The total width of the `container` out of `12` columns. The additon of all the values inserted in the `widths` property MUST be equal to `12` in order to keep the table rendered correctly. 
+This `module` is use to insert a table inside of a `container`. The property `cols` is used to define the number of columns of the table and the property `widths` is used to define the width of each column. The total width of the `container` is `12` columns. The additon of all the values inserted in the `widths` property MUST be equal to `12` in order to keep the table rendered correctly. 
 At the same time each column of the table can contain its own `module`.
 
 ## Display
 
 This is how `RowMultiColumns` is rendered on the webpage:
+The table is inserted inside of the container. The table has 3 columns. Each column is used by a `module`:
+* Column 1: `RowNewList`
+* Column 2: `RowButtonGrid` table that contains 5 columns
+* Column 3: `RowButtonGrid` with an special `id` property set to *events* that extends the width of the buttons or bubles.
 
-<img width="1180" alt="image" src="https://user-images.githubusercontent.com/3258579/146674432-8800c643-3b85-4647-8c9f-b718a5869192.png">
+<img width="1180" alt="image" src="https://user-images.githubusercontent.com/3258579/149394151-ff366cd7-433c-4944-b15d-6d83322b9f10.png">
 
 ## Use
 This table describes what `RowMultiColumns` is and how to use it.
@@ -29,8 +33,8 @@ This table describes what `RowMultiColumns` is and how to use it.
             <td><b>RowMultiColumns</b></td>
             <td><ul>
                   <li>It is used to insert a table on the webpage, which width can be an equivalent to 12 columns</li>
-                  <li>Each column of the table can contain any module defined on these guideliens</li>
-                  <li>The width of each column of the table is controlled by a property called <i>width</i>. The additions of the columns width MUST be <b>12</b> or less </li>
+                  <li>Each column of the table can contain any module defined on these guidelines</li>
+                  <li>The width of each column of the table is controlled by a property called <i>width</i>. The additions of the columns widths MUST be <b>12</b> or less </li>
                   <li>The property <i>columns</i> is a wrapper to hold the properties that define the column(s) content. Each column will contain its own module </li>
                 </ul>
             </td>
@@ -40,7 +44,7 @@ This table describes what `RowMultiColumns` is and how to use it.
 
 ## Code
 
-This the code example of a `RowMultiColumns` module written  in a markdown file:
+This an [example](https://raw.githubusercontent.com/OpenMobileAlliance/oma_github_pages/main/content/index.md) of a `RowMultiColumns` module written  in a markdown file:
 In this example, the table contains **12** columns allocated as follow:
 * the first column takes an space of **2** columns out of **12** possible columns and it contains the [`RowNewList`](/RowNewList.md) module
 * the second columns takes an space of **8** columns out of **12** possible columns and it contains the [`RowButtonGrid`](/RowButtonGrid.md) module, which is another table that contains **5** columns in the space allocated to the second column, with a width of **8** columns
@@ -244,35 +248,35 @@ In this example, the table contains **12** columns allocated as follow:
 `name`: **RowMultiColumns**
 
 `cols`:
-* the value of this property is an integer from `1` to `12`, which represents the number of columns contained by the table across the webpage width.
+* the value of this property is an integer from `1` to `12`, which represents the number of columns contained by the table that goes across the webpage width.
 
 `widths`:
-* this property represents the width of each column by an integer. The addition of all the columns widths values MUST be equal to `12`, which is the maximum number of columns that a `container` can display.
+* this property represents the width of each column. It values MUST be an integer. The addition of all the columns widths values MUST be equal to `12`, which is the maximum number of columns that a `container` can display.
 
 `modules`:
 * this property doesn't have any value, it is used to [indent]() to the right the following `properties`:
 
   * `name`:
-    * this represents the name of the [`module`]()
+    * this represents the name of the [`module`](https://openmobilealliance.github.io/githubpages-doc-guidelines/modules)
 
   * `title`:
-    * the value of this `property` will be used to display at the top of the column
+    * the value of this `property` will be used to display a title at the top of the column
     * the value will be displayed in `bold`
 
   * `subtitle`:
-    * the value of this `property` will be displayed in `italic` below the title
+    * the value of this `property` will be used to display a subtitle, in `italic` and below the title
 
   * `image`:
-    * each column will have an `icon` displayed on top of the `title`
+    * each column will have an `icon` which is displayed on top of the `title` property
     * the `icon` is stored externally, out side of the repository in XXX
-    * in this case the value of the `image` is a `string` which name represents an `icon` in the above reference
+    * in this case the value of the `image` is a `string` which name represents an `icon` in the above reference, e.g.: *fas handshake*
 
 *Submodule 1*
-  * This indicates that one of the existing [`module`]() can be inserted inside of the `RowMultiColumns` as a column.
+  * This indicates that one of the existing [`module`](https://openmobilealliance.github.io/githubpages-doc-guidelines/modules) can be inserted inside of the `RowMultiColumns` as a column.
   * See content [indentation]()
 
 *Submodule n*
-  * A [`module`]() MUST be inserted for each defined column 
+  * A [`module`](https://openmobilealliance.github.io/githubpages-doc-guidelines/modules) MUST be inserted for each defined column 
   * See content [indentation]()
 
 ## F.A.Q

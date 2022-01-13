@@ -35,7 +35,7 @@ This table describes what is and how to use `RowText` module.
 </table>
 
 ## Code
-This is an example of a `RowText` module written in a markdown file:
+This is an [example](https://raw.githubusercontent.com/OpenMobileAlliance/oma_github_pages/main/content/index.md) of a `RowText` module written in a markdown file:
 
 ```md [oma_github_pages/content/index.md]
   -
@@ -44,7 +44,6 @@ This is an example of a `RowText` module written in a markdown file:
       ### Open Mobile Alliance - [DMSE](https://omaspecworks.org/about/the-oma-specworks-work-program/device-management-and-service-enablement-working-group/) / [IPSO](https://omaspecworks.org/about/the-oma-specworks-work-program/ipso-smart-objects-working-group/) Working Groups
       These GitHub pages are dedicated to DMSE/IPSO Working Groups.
 ```
-This is an example of a [`RowText`](https://raw.githubusercontent.com/OpenMobileAlliance/oma_github_pages/main/content/index.md) module.
 
 ## Properties
 ### Structure
