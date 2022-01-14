@@ -7,10 +7,10 @@ category: 'GETTING STARTED'
 ## Overview
 This section provides a step-by-step guidelines on how to build the [**TestFest**](https://lwm2m.openmobilealliance.org/testfests/) webpage.
 
-## Installation
+## Prerequisites
 In this section you will find information on setting up your local environment.
 
-### Prerequisites
+### Installation
 You need to install the following components:
 * [Node.js](https://nodejs.org/)
 * A text editor, e.g. [VS Code](https://code.visualstudio.com/)
