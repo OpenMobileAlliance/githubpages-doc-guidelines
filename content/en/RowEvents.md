@@ -114,16 +114,39 @@ If the `module` is used inside of the of e.g.: `RowButtonGrid` which at the same
 `cols`:
 * this is an empty property that it is used to list the header content of the column
 * these properties were already defined in the [`RowButtonGrid`](https://openmobilealliance.github.io/githubpages-doc-guidelines/RowButtonGrid) `module`
-  * `title`:
+  * `title`: 
+      * title of the column header
+      * it is displayed in bold
   * `subtitle`:
+      * subtitle of the column header
+      * it is displayed in italic
   * `image`:
+      * name of the icon, e.g. `fas users`
+      * the icon is not stored in the repository but in an external website
+      * this is a list of possible [icons]()
   * `items`:
     * this property doesn't have assigned any value, it used to list the properties of the rows inside of the column.
     * the following properties are the same as the ones defined inside of the `items` property of the [`RowButtonGrid`](https://openmobilealliance.github.io/githubpages-doc-guidelines/RowButtonGrid)
       * `title`:
+        * title of the `button` or `bubble`
+        * the title is displayed in bold
       * `subtitle`:
+        * subtitle of the `button` or `bubble`
+        * the subtitle is displayed in italic
       * `status`:
+        * this property controls the background color of the `button` or `bubble`, the possible values are:
+            * `hightlight`
+              * in the CSS this element is configured to be `highlighted`
+            * `active`
+              * the look and feel provided in the CSS is configured to be `on`
+            * `deactive`
+              * the look and feel provided in the CSS is configured to be `off`
+            * `pending`
+              * the look and feel provided in the CSS is configured to be in `transition`
       * `url`:
+        * optional property
+        * the value of this property is a global or local URL
       * `target`:
+        * optional property, which values are *empty* or `_blank`. The latest value, opens the URL in a new webpage
 
 ## F.A.Q
