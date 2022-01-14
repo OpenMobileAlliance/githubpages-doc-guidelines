@@ -6,7 +6,7 @@ category: 'MODULES'
 ---
 
 ## Overview
-This `module` is used when it is necesary to introduce a `table`. with `filters`, `search`, and `pagination`.
+This `module` is used when it is necesary to introduce a table with `filters`, `search`, and `pagination`. The columns headers are defined inside of the property `columns` by a set of properties: `key`, `label` and `sortable`. The content of the rows are also defined inside of the property `items` by another set of sub-properties: `title`, `icon`, `url`, `target`. These set of sub-properties are used to characterized the specific names given to the column readers in the `key` values.
 
 ## Display
 This is how `RowDynamicTable` is rendered in a webpage:
@@ -25,11 +25,13 @@ This table describes what `RowDynamicTable` is and how to use it
 </thead>
 <tbody>
       <tr>
-            <td><a href="./#rowdynamictable" target="_blank">RowDynamicTable</a></td>
+            <td><b>RowDynamicTable</b></td>
             <td>
                   <ul>
-                        <li>It is used when when a `table` is needed <a href="./#rowdynamictable" target="_blank">RowDynamicTable</a> module</li>
-                        <li><a href="#rowdynamictable" >See example</a></li>
+                        <li>This module is used when is needed to present information in a table with rows and columns</li>
+                        <li>The table is supported by other functions such as: <b>sorting</b> columns content in ascendent or descendent order; <b>searching</b> that filter the rows by content; and <b>pagination</b> that allows to present the content in groups of certain number of rows or pages</li>
+                        <li>The table contains properties to define the title of the column headers as well as the row content</li>
+                        <li>The table cells may contain: text, links, or icons to characterize the content inside of each row and cell</li>
                   </ul>
             </td>
       </tr>
@@ -37,7 +39,7 @@ This table describes what `RowDynamicTable` is and how to use it
 </table>
 
 ## Code
-This is how `RowDynamicTable` is written in Markdown:
+This is an example of how a [`RowDynamicTable`](https://raw.githubusercontent.com/OpenMobileAlliance/oma_github_pages/main/content/resources.md) module is written in Markdown:
 
 ```md
   - 
@@ -156,37 +158,35 @@ This is how `RowDynamicTable` is written in Markdown:
 
 ```yml
 -  # always start with a `-`
-  name:
-  description:
-  pagination:
-  filter:
-      - title:
+  name: RowDynamicTable   # the name of the module
+  description:            # the table description
+  pagination:             # the number of pages or rows to display per page
+  filter:                 # this property is a wrapper that defines the name of the columns to search
+      - title:            # these names cange from table to table
       - type:
       - published:
-  columns:
-    - # these properties define the header of the columns
-      key:
-      label:
-      sortable:
-    -
-      # repite the content inside of columns for each column on the table
-  items:  # the properties inside of items define the content of each row
-    - title:
-        title:
-      type:
-        title:
-      published:
-        title:
-      download:
-        icon:
-        url:
-        target:
-    -
-      #repite the content inside of items for each row on the table
+  columns:                # this property is a wrapper that groups the properties to define the column headers
+    -                     # repite the content inside of this section for each column of the table
+      key:                # this property indicates the key value of the column header
+      label:              # it indicates if the name of the header to display at the header column
+      sortable:           # true or false, it indicates if the column is sortable in ascending/descending order
+  items:                  # the properties inside of items define the content of each row
+    - title:              # this name is particular to each table, in this example the column header is called title
+        title:            # this represents the value to be displayed on that cell
+      type:               # this name is particular to each table, in this example the column header is called type
+        title:            # this represents the value to be displayed on that cell
+      published:          # this name is particular to each table, in this example the column header is called published
+        title:            # this represents the value to be displayed on that cell
+      download:           # this name is particular to each table, in this example the column header is called download
+        icon:             # this represents the name of image-icon to display on that cell
+        url:              # this property is used to display a URL on that cell
+        target:           # if the value of this property is set to "_blank", then a new webpage will be open to display the content
+    -                     #repite the content inside of items for each row on the table
 ```
 
 ### Description
-This module inserts a `table` with multiple `columns`, `pagination`, `filtering` and `search`.
+This `module` inserts a table with multiple `columns`, `pagination`, `filtering` and `searching` functionality.
+The properties: `title`, `icon`, `url` and `target` are properties that can be used inside of any of the cell of the table.
 
 `name`: **RowDynamicTable**
 
@@ -197,7 +197,7 @@ This module inserts a `table` with multiple `columns`, `pagination`, `filtering`
 * this property indicates row many `rows` will be displayed per page
 
 `filter`:
-* this property allows to filter in alphabetic or asdesding/descending order the content on the colums. The value to insert is the title of the column, which is described in by the `key` property of the `columns` 
+* this property allows to filter in asdesding/descending order the content on the colums. The value to insert is the title of the column, which is described in by the `key` property of the `columns` 
 
 `columns`:
 * This attribute is a wraper that defines the headers or titles of the `table`. It contains the following properties:
@@ -217,28 +217,28 @@ This module inserts a `table` with multiple `columns`, `pagination`, `filtering`
 * this property is a wrapper that lists the content of each `row` on the `table`
 
 * `title`:
-  * this is a wrapper for the value associated to the `key` property
+  * this is the name to be displayed as the header of the first column
   * this value MUST be the same as the one defined inside of the `columns` properties. In this particular example the value of the `key` property was set to `title`
 
    * `title`:
     * this property contains a value to display on the row of the `table`
 
 * `type`:
-  * this is a wrapper for the `type` property
+  * this is the name to be displayed as the header of the second column
   * this value MUST be the same as the one defined inside of the `columns` properties. In this particular example the value of the `key` property was set to `type`
 
    * `title`:
       * this property contains a value to display on the `table`
 
 * `published`:
-  * this is a wrapper for the `published` property
+  * this is the name to be displayed as the header of the third column
   * this value MUST be the same as the one defined inside of the `columns` properties. In this particular example the value of the `key` property was set to `published`
 
   * `title`:
       * this property contains a value to display on the `table`
 
 * `download`:
-  * this is a wrapper for the `published` property
+  * this is the name to be displayed as the header of the fourth column
   * this value MUST be the same as the one defined inside of the `columns` properties. In this particular example the value of the `key` property was set to `download`
   * Inside of this wrapper it has been defined some extra properties:
 
