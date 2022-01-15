@@ -41,13 +41,23 @@ cd oma_github_pages
 ```
 Run the project by typing one of the following commands below on your terminal and inside of the above folder:
 
-```bash
-yarn dev
-```
-or
-```bash
-npm dev
-```
+<code-group>
+  <code-block label="Yarn" active>
+
+  ```bash
+  yarn run dev
+  ```
+
+  </code-block>
+  <code-block label="NPM">
+
+  ```bash
+  npm run dev
+  ```
+
+  </code-block>
+</code-group>
+
 The local host is listening on: http://localhost:3000/test-nuxt/
 
 Click in this link and you will have your local website running in your host.
