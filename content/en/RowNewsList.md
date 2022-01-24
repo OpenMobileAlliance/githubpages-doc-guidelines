@@ -1,5 +1,5 @@
 ---
-title: RowNewList
+title: RowNewsList
 description: ''
 position: 160
 category: 'MODULES'
@@ -10,12 +10,12 @@ The `module` can be used by itself inside of a `container` or as a `submodule` i
 
 ## Display
 
-This is how `RowNewList` module is rendered in a webpage:
+This is how `RowNewsList` module is rendered in a webpage:
 
 <img width="1180" alt="image" src="https://user-images.githubusercontent.com/3258579/146674445-f5d7f46a-6c3b-4a3d-8962-0f0f680b2511.png">
 
 ## Use
-This table describes what `RowNewList` is and how to use it.
+This table describes what `RowNewsList` is and how to use it.
 
 <table>
 <thead>
@@ -26,7 +26,7 @@ This table describes what `RowNewList` is and how to use it.
 </thead>
 <tbody>
       <tr>
-            <td><b>RowNewList</b></td>
+            <td><b>RowNewsList</b></td>
             <td>
                   <ul>
                         <li>This module is used to provide a highlight of the **News** available in the News folder </li>
@@ -40,7 +40,7 @@ This table describes what `RowNewList` is and how to use it.
 
 ## Code
 
-This is an example of how [`RowNewList`](https://raw.githubusercontent.com/OpenMobileAlliance/oma_github_pages/main/content/index.md) is written on a markdown file:
+This is an example of how [`RowNewsList`](https://raw.githubusercontent.com/OpenMobileAlliance/oma_github_pages/main/content/index.md) is written on a markdown file:
 
 ```md
       - 
@@ -60,7 +60,7 @@ This is an example of how [`RowNewList`](https://raw.githubusercontent.com/OpenM
   image:
 ```
 
-If the `RowNewList` module is used as a submodule inside of e.g. [`RowMultiColumns`](https://openmobilealliance.github.io/githubpages-doc-guidelines/RowMultiColumns) module, then the structure is:
+If the `RowNewsList` module is used as a submodule inside of e.g. [`RowMultiColumns`](https://openmobilealliance.github.io/githubpages-doc-guidelines/RowMultiColumns) module, then the structure is:
 
 ```yml
 
