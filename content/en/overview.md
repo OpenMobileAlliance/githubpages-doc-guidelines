@@ -25,7 +25,11 @@ The **Menus** section describes how to add `menus` and `submenus` to the navigat
 
 The **Modules** section describes the different types of `modules` and its content types.
 
-Finally, the **How to ... Example** section, provides a step by step example of how to create a menu and the content for the webpage [TestFests](https://lwm2m.openmobilealliance.org/testfests/).
+### How to ...
+The **How to ...** section, provides a step by step example of how to setup your local environment and create different types of content:
+* How to create a webpage [TestFests](https://lwm2m.openmobilealliance.org/testfests/)
+* How to create a Blog
+* How to create a News
 
 The website has been constructed using a framework developed by [`StandardsCode`]() an open-source project that maintains and develop the [framework]() used to build the [lwm2m.openmobilealliance.org](https://lwm2m.openmobilealliance.org/) website.
 
