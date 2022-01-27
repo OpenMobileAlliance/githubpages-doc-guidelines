@@ -75,3 +75,4 @@ These are the properties of the `RowImage` module:
 * if the property is set to *border-image*, then a window (X,Y) is place on top of the image trimming anything outside of the window
 
 ## F.A.Q
+Please create an issue by clickig [here](https://github.com/OpenMobileAlliance/githubpages-doc-guidelines/issues).

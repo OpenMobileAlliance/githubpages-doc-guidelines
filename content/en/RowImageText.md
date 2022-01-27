@@ -85,3 +85,4 @@ These are the properties that controls the content on this module:
 * if more than one line of text is needed, then insert the special charter `|`, this will allow multiple lines of Markdown text
 
 ## F.A.Q
+Please create an issue by clickig [here](https://github.com/OpenMobileAlliance/githubpages-doc-guidelines/issues).

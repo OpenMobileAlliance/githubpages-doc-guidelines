@@ -72,3 +72,4 @@ No modules are or can be defined outside of the `front-matter`, only markdown te
 In this page markdown language is used to elaborate **Frequent Asked Questions** about TestFests.
 
 ## F.A.Q
+Please create an issue by clickig [here](https://github.com/OpenMobileAlliance/githubpages-doc-guidelines/issues).

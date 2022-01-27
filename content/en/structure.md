@@ -88,3 +88,6 @@ This is the code that describes the content of the `footer`:
       * `logName` is set to value like: facebook, twitter, github, etc
 
 * insert a new `<b-nav-item>` element and its properties to add a new Social Media link
+
+## F.A.Q
+Please create an issue by clickig [here](https://github.com/OpenMobileAlliance/githubpages-doc-guidelines/issues).

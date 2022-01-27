@@ -146,3 +146,4 @@ These are the `modules` used in the [lwm2m.openmobilealliance.org](https://lwm2m
 > Indentation: it is important to respect the indentation of the module properties. If the indentation is not correct, the content may not be displayed correctly.
 
 ## F.A.Q
+Please create an issue by clickig [here](https://github.com/OpenMobileAlliance/githubpages-doc-guidelines/issues).

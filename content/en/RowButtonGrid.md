@@ -270,3 +270,4 @@ If the `module` is used as a e.g. submodule inside of `RowMultiColums`, then the
         * optional property, which values are *empty* or `_blank`. The latest value, opens the URL in a new webpage
 
 ## F.A.Q
+Please create an issue by clickig [here](https://github.com/OpenMobileAlliance/githubpages-doc-guidelines/issues).

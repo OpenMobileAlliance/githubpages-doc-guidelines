@@ -39,6 +39,30 @@ With the terminal, position yourself in the folder that contains the project: `o
 ```bash
 cd oma_github_pages
 ```
+Install Nuxt and dependencies on your machine by running the command:
+
+<code-group>
+  <code-block label="Yarn" active>
+
+  ```bash
+  yarn install
+  ```
+
+  </code-block>
+  <code-block label="NPM">
+
+  ```bash
+  npm install
+  ```
+
+  </code-block>
+</code-group>
+
+<alert>
+The above command, e.g. <i>npm install</i>, must be run after changeing files that are not insid of the folder the folder <a href="https://github.com/OpenMobileAlliance/oma_github_pages/tree/main/content">/content/</a>. In this way we can be sure that changes to the structure are being installed in the local server.
+
+</alert>
+
 Run the project by typing one of the following commands below on your terminal and inside of the above folder:
 
 <code-group>
@@ -243,3 +267,4 @@ Insert a new menu item between the **Resources** and the **Specifications** menu
 ```
 
 The content of this webpage can be be found in [TestFest](https://raw.githubusercontent.com/OpenMobileAlliance/oma_github_pages/main/content/testfests.md).
+

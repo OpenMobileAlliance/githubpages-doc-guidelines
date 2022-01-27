@@ -30,13 +30,20 @@ Finally, the **How to ... Example** section, provides a step by step example of 
 The website has been constructed using a framework developed by [`StandardsCode`]() an open-source project that maintains and develop the [framework]() used to build the [lwm2m.openmobilealliance.org](https://lwm2m.openmobilealliance.org/) website.
 
 ### Pages
-This section describes in detail the content and structure of three webpages:
+This section describes in detail the content and structure of the following webpages:
 * [Home](https://lwm2m.openmobilealliance.org/) 
     * A webpage that provides a list of URLs related to **LwM2M** protocol
 * [Resources](https://lwm2m.openmobilealliance.org/resources/)
     * A webpage that contains a dynamic table with **LwM2M** resources
 * [TestFests](https://lwm2m.openmobilealliance.org/testfests/)
     * A webpage with information related to **LwM2M** TestFests
+* [Blogs](https://openmobilealliance.github.io/githubpages-doc-guidelines/blogs)
+    * This webpage contains all the blogs produced by the Working Group
+* [News](https://openmobilealliance.github.io/githubpages-doc-guidelines/news)
+    * This webpage contains all the news published by the Working Group
 
 ### Modules
-This section provides a detailed description of the type of content, properties  and and usage of the `modules` created by [StandardsCode]() [framework]().
+This section provides a detailed description of the type of content, properties  and and usage of the `modules` created by [StandardsCode]() [framework](https://openmobilealliance.github.io/githubpages-doc-guidelines/framework).
+
+## F.A.Q
+Please create an issue by clickig [here](https://github.com/OpenMobileAlliance/githubpages-doc-guidelines/issues).

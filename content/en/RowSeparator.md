@@ -75,3 +75,4 @@ This is an [example](https://raw.githubusercontent.com/OpenMobileAlliance/oma_gi
 * `XL`: extra large empty line
 
 ## F.A.Q
+Please create an issue by clickig [here](https://github.com/OpenMobileAlliance/githubpages-doc-guidelines/issues).

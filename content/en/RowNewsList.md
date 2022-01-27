@@ -93,3 +93,4 @@ If the `RowNewsList` module is used as a submodule inside of e.g. [`RowMultiColu
 * in this case the value of the `image` is a `string` which name represents an `icon` in the above reference, e.g.: *fas cube*
 
 ## F.A.Q
+Please create an issue by clickig [here](https://github.com/OpenMobileAlliance/githubpages-doc-guidelines/issues).

@@ -98,5 +98,6 @@ In this page, markdown language is used to define the **About OMA SpecWorks** se
 
 ## F.A.Q
 
+Please create an issue by clickig [here](https://github.com/OpenMobileAlliance/githubpages-doc-guidelines/issues).
 
 [^1]: a `front-matter` section is an space inside of a markdown file limited by  two set of dashes `---`. Any other content outside of these dashes is considered outside of the `front-matter`.

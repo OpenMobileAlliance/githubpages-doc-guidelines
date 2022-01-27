@@ -165,3 +165,4 @@ This is the `menu` structure:
         * if the value of this property is set to *ml-auto* then, XXXX
 
 ## F.A.Q
+Please create an issue by clickig [here](https://github.com/OpenMobileAlliance/githubpages-doc-guidelines/issues).
