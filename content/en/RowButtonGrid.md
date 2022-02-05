@@ -244,8 +244,9 @@ If the `module` is used as a e.g. submodule inside of `RowMultiColums`, then the
   * `image`:
     * same arrangement as in the [`RowMultiColumns`](https://openmobilealliance.github.io/githubpages-doc-guidelines/RowMultiColumns), or [`RowNewList`](https://openmobilealliance.github.io/githubpages-doc-guidelines/RowNewList) `modules`
     * this is an `icon` displayed on top of the `title`
-    * the `icon` is stored externally, out side of the repository in XXX
-    * in this case the value of the `image` is a `string` which name represents an `icon` in the above reference, e.g.: *fas cog*
+    * the `icon` is stored externally, out side of the repository in [free images](https://fontawesome.com/v5.15/icons?d=gallery&p=2&s=brands,solid&m=free)
+    * each column will have an `icon` which is displayed on top of the `title` property
+    * in this case the value of the `image` is a `string` which name represents an `icon` in the above reference, e.g.: search for image name **cog** the value to insert on the `image` property is prefixed by `fas` string, e.g., *fas cog*
   * `items`:
     * the following properties are used to define a `button` or `bubble` inside of a cell
     * the following items are indented to the right:
