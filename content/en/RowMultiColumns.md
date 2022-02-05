@@ -268,8 +268,8 @@ In this example, the table contains **12** columns allocated as follow:
 
   * `image`:
     * each column will have an `icon` which is displayed on top of the `title` property
-    * the `icon` is stored externally, out side of the repository in XXX
-    * in this case the value of the `image` is a `string` which name represents an `icon` in the above reference, e.g.: *fas handshake*
+    * the `icon` is stored externally, out side of the repository in [free images](https://fontawesome.com/v5.15/icons?d=gallery&p=2&s=brands,solid&m=free)
+    * in this case the value of the `image` is a `string` which name represents an `icon` in the above reference, e.g.: search for image name **handshake** the value to insert on the `image` property is prefixed by `fas` string, e.g., *fas handshake*
 
 *Submodule 1*
   * This indicates that one of the existing [`module`](https://openmobilealliance.github.io/githubpages-doc-guidelines/modules) can be inserted inside of the `RowMultiColumns` as a column.

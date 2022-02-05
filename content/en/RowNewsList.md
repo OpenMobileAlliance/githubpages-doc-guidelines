@@ -87,10 +87,10 @@ If the `RowNewsList` module is used as a submodule inside of e.g. [`RowMultiColu
 * it provides an *italic* subtitle, below the `title`
 
 `image`:
-* same arrangement as in the `RowMultiColumns` module
+* same arrangement as in the [`RowMultiColumns`](https://openmobilealliance.github.io/githubpages-doc-guidelines/RowMultiColumns) module
 * this is an `icon` displayed on top of the `title`
-* the `icon` is stored externally, out side of the repository in XXX
-* in this case the value of the `image` is a `string` which name represents an `icon` in the above reference, e.g.: *fas cube*
+* the `icon` is stored externally, out side of the repository in [free images](https://fontawesome.com/v5.15/icons?d=gallery&p=2&s=brands,solid&m=free)
+* in this case the value of the `image` is a `string` which name represents an `icon` in the above reference, e.g.: search for image name **Cube** the value to insert on the `image` property is prefixed by `fas` string, e.g., *fas cube*
 
 ## F.A.Q
 Please create an issue by clickig [here](https://github.com/OpenMobileAlliance/githubpages-doc-guidelines/issues).
