@@ -27,7 +27,7 @@ The content of this block contains clickable items such as [`logo`](), [`menus`]
 ### Pages
 
 The main placeholder for the content is the `page`, a markdown file such as [structure.md]().
-A `page` is formed by `containers` that are boxes stacked one of top of each other and spreaded across the width of the webpage. Each `container` can hold one or more `modules`. The basic type of content that can be inserted inside of a `module` are: `image`, `text`, `table`, `blank-separator`, `news-card`, `blog-card`, etc.
+A `page` is formed by `containers` that are boxes stacked one of top of each other and spread across the width of the webpage. Each `container` can hold one or more `modules`. The basic type of content that can be inserted inside of a `module` are: `image`, `text`, `table`, `blank-separator`, `news-card`, `blog-card`, etc.
 
 Inside of a `container` is possible to insert a `module` which in turn contains another `modules`. The above image depictures an example where one `container` holds a `module`, called `RowMultiColumns` - a table with two columns - in one of the columns is inserted another module `RowNewList` and in other column is inserted a `RowButtonGrid` module.
 
@@ -83,7 +83,7 @@ This is the code that describes the content of the `footer`:
    * `href` = property which value is the URL of the Social Media to point to
    * `target`= "_blank", opens the link-content in a new webpage
    * `<FontAwesomeIcon>` 
-   * this elment is used to indicate the type of Social Media its icon.
+   * this element is used to indicate the type of Social Media its icon.
       * `icon="['fab', 'logoName']"`
       * `logName` is set to value like: facebook, twitter, github, etc
 
