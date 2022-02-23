@@ -202,7 +202,7 @@ This is an example of how [`RowButtonGrid`](https://raw.githubusercontent.com/Op
           url:
           target:
         -
-          # repite the properties inside of items for each row to add
+          # repeat the properties inside of items for each row to add
 ```
 If the `module` is used as a e.g. submodule inside of `RowMultiColums`, then the structure will be:
 
@@ -227,8 +227,8 @@ If the `module` is used as a e.g. submodule inside of `RowMultiColums`, then the
                 url:
                 target:
               -
-                # repite the properties inside of items for each row to add
-                # or repite the properties that define the columns
+                # repeat the properties inside of items for each row to add
+                # or repeat the properties that define the columns
 ```
 
 ### Description
@@ -236,7 +236,7 @@ If the `module` is used as a e.g. submodule inside of `RowMultiColums`, then the
 
 `cols`:
 * this property doesn't have any value, it is followed by the header of the column as well as the `items` inserted in the column as `cells`
-* the properties listed below define the content per column. To add more than one column repite these set of properties, indented to the right of the property `cols`
+* the properties listed below define the content per column. To add more than one column repeat these set of properties, indented to the right of the property `cols`
   * `title`:
     * it provides a *bold* title at the top of the column
   * `subtitle`:
@@ -244,7 +244,7 @@ If the `module` is used as a e.g. submodule inside of `RowMultiColums`, then the
   * `image`:
     * same arrangement as in the [`RowMultiColumns`](https://openmobilealliance.github.io/githubpages-doc-guidelines/RowMultiColumns), or [`RowNewList`](https://openmobilealliance.github.io/githubpages-doc-guidelines/RowNewList) `modules`
     * this is an `icon` displayed on top of the `title`
-    * the `icon` is stored externally, out side of the repository in [free images](https://fontawesome.com/v5.15/icons?d=gallery&p=2&s=brands,solid&m=free)
+    * the `icon` is stored externally, outside of the repository in [free images](https://fontawesome.com/v5.15/icons?d=gallery&p=2&s=brands,solid&m=free)
     * each column will have an `icon` which is displayed on top of the `title` property
     * in this case the value of the `image` is a `string` which name represents an `icon` in the above reference, e.g.: search for image name **cog** the value to insert on the `image` property is prefixed by `fas` string, e.g., *fas cog*
   * `items`:
@@ -256,7 +256,7 @@ If the `module` is used as a e.g. submodule inside of `RowMultiColums`, then the
         * this property is used to provide an `italic` subtitle below the `title` property
       * `status`:
         * with this property is possible to control the background color of the *button* or *bubble*, the possible values are:
-          * `hightlight`
+          * `highlight`
             * in the CSS this element is configured to be `highlighted`
           * `active`
             * the look and feel provided in the CSS is configured to be `on`

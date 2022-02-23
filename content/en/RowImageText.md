@@ -14,7 +14,7 @@ This is how `RowImageText` is rendered in a webpage:
 <img width="1134" alt="image" src="https://user-images.githubusercontent.com/3258579/146674517-2a11b964-10d9-49c2-a396-74857f35cd47.png">
 
 ## Use
-This table desribes what `RowImageText` is and how to use it.
+This table describes what `RowImageText` is and how to use it.
 
 <table>
 <thead>

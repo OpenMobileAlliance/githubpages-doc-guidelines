@@ -32,7 +32,7 @@ This table describes what `RowNewsCards` is and how to use it.
                         <li>This module is used to provide a list of **News** available in the News folder </li>
                         <li>The information displayed is in the form of Cards in a row next to each other.</li>
                         <li>In the News markdown file, (inside of the News folder) the property <i>homepage</i> may contain an integer value. This value indicates the order from left to right in which the News will appears in the set of Cards</li>
-                        <li>To view other method to diplay news please refer to <a href="https://openmobilealliance.github.io/githubpages-doc-guidelines/RowNewList.md" target="_blank">RowNewList</a> module</li>
+                        <li>To view other method to display news please refer to <a href="https://openmobilealliance.github.io/githubpages-doc-guidelines/RowNewList.md" target="_blank">RowNewList</a> module</li>
                   </ul>
             </td>
       </tr>

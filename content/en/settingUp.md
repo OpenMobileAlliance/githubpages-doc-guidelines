@@ -59,7 +59,7 @@ Install Nuxt and dependencies on your machine by running the command:
 </code-group>
 
 <alert>
-The above command, e.g. <i>npm install</i>, must be run after changeing files that are not insid of the folder the folder <a href="https://github.com/OpenMobileAlliance/oma_github_pages/tree/main/content">/content/</a>. In this way we can be sure that changes to the structure are being installed in the local server.
+The above command, e.g. <i>npm install</i>, must be run after changing files that are not inside of the folder <a href="https://github.com/OpenMobileAlliance/oma_github_pages/tree/main/content">/content/</a>. In this way we can be sure that changes to the structure are being installed in the local server.
 
 </alert>
 
@@ -88,4 +88,3 @@ Click in this link and you will have your local website running in your host.
 
 ## F.A.Q
 Please create an issue by clicking [here](https://github.com/OpenMobileAlliance/githubpages-doc-guidelines/issues).
-

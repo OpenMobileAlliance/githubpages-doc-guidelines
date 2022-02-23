@@ -6,7 +6,7 @@ category: 'MODULES'
 ---
 
 ## Overview
-This `module` is used when it is necesary to introduce a table with `filters`, `search`, and `pagination`. The columns headers are defined inside of the property `columns` by a set of properties: `key`, `label` and `sortable`. The content of the rows are also defined inside of the property `items` by another set of sub-properties: `title`, `icon`, `url`, `target`. These set of sub-properties are used to characterized the specific names given to the column readers in the `key` values.
+This `module` is used when it is necessary to introduce a table with `filters`, `search`, and `pagination`. The columns headers are defined inside of the property `columns` by a set of properties: `key`, `label` and `sortable`. The content of the rows are also defined inside of the property `items` by another set of sub-properties: `title`, `icon`, `url`, `target`. These set of sub-properties are used to characterize the specific names given to the column readers in the `key` values.
 
 ## Display
 This is how `RowDynamicTable` is rendered in a webpage:
@@ -162,11 +162,11 @@ This is an example of how a [`RowDynamicTable`](https://raw.githubusercontent.co
   description:            # the table description
   pagination:             # the number of pages or rows to display per page
   filter:                 # this property is a wrapper that defines the name of the columns to search
-      - title:            # these names cange from table to table
+      - title:            # these names change from table to table
       - type:
       - published:
   columns:                # this property is a wrapper that groups the properties to define the column headers
-    -                     # repite the content inside of this section for each column of the table
+    -                     # repeat the content inside of this section for each column of the table
       key:                # this property indicates the key value of the column header
       label:              # it indicates if the name of the header to display at the header column
       sortable:           # true or false, it indicates if the column is sortable in ascending/descending order
@@ -181,7 +181,7 @@ This is an example of how a [`RowDynamicTable`](https://raw.githubusercontent.co
         icon:             # this represents the name of image-icon to display on that cell
         url:              # this property is used to display a URL on that cell
         target:           # if the value of this property is set to "_blank", then a new webpage will be open to display the content
-    -                     #repite the content inside of items for each row on the table
+    -                     #repeat the content inside of items for each row on the table
 ```
 
 ### Description
@@ -197,10 +197,10 @@ The properties: `title`, `icon`, `url` and `target` are properties that can be u
 * this property indicates row many `rows` will be displayed per page
 
 `filter`:
-* this property allows to filter in asdesding/descending order the content on the colums. The value to insert is the title of the column, which is described in by the `key` property of the `columns` 
+* this property allows to filter in asending/descending order the content on the columns. The value to insert is the title of the column, which is described in by the `key` property of the `columns` 
 
 `columns`:
-* This attribute is a wraper that defines the headers or titles of the `table`. It contains the following properties:
+* This attribute is a wrapper that defines the headers or titles of the `table`. It contains the following properties:
 
 * `key`:
   * this property holds the `key` value that identify the title of the column
@@ -250,7 +250,7 @@ The properties: `title`, `icon`, `url` and `target` are properties that can be u
     * a click in the icon will open the webpage on the corresponding URL
 
    * `target`:
-    * this is an optinal property which value is `_blank`
+    * this is an optional property which value is `_blank`
     * if this value `_blank` is inserted then the webpage will be open in a new window
 
 ## F.A.Q

@@ -26,7 +26,7 @@ This table describes what is and how to use `RowText` module.
       <tr>
             <td><b>RowText</b></td>
             <td><ul>
-                  <li>it is used to insert text, one ore more paragraphs in markdown languge</li>
+                  <li>it is used to insert text, one ore more paragraphs in markdown language</li>
                   <li>if multiple text lines are needed, then insert `|` symbol and then write Markdown content across multiple lines.</li>
                 </ul>
             </td>

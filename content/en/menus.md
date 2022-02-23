@@ -21,7 +21,7 @@ This image depictures the menu section of the [lwm2m.openmobilealliance.org](htt
 
 The website `logo` can be found in [oma_github_pages / static / images / logo1.png](https://github.com/OpenMobileAlliance/oma_github_pages/blob/main/static/images/logo1.jpg), and the file that contains the `menus` & `submenus` in [oma_github_pages / content / menus.md](https://raw.githubusercontent.com/OpenMobileAlliance/oma_github_pages/main/content/menus.md)
 
-This is the code for the webisite menus:
+This is the code for the website menus:
 
 ```yml [oma_github_pages / content / menus.md]
 --- # start of front-matter
@@ -52,7 +52,7 @@ This is the code for the webisite menus:
       class: text-uppercase
     - 
       title: Information
-      description: News & BLog pages of the OMA DMSE
+      description: News & Blog pages of the OMA DMSE
       class: text-uppercase
       items: # start of submenus
         - 
@@ -83,14 +83,14 @@ This is the `menu` structure:
 ---  # always start with a `-`
     component:
     description:
-    menus: # this property indicates the begining of the menus
+    menus: # this property indicates the beginning of the menus
       -    # use these properties to define a particular menu
         title:
         description:
         url:
         target:
         class:
-      - # repite the above properties for each menu
+      - # repeat the above properties for each menu
 
       - # to insert a submenus inside of a menu use these properties
         title:
@@ -103,7 +103,7 @@ This is the `menu` structure:
             title:
             url:
             class:
-          - # repite the 'items' properties for each submenu
+          - # repeat the 'items' properties for each submenu
       -     # use the properties define below to add an icon to the left-hand side of the header
         description:
         icon:

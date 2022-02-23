@@ -26,7 +26,7 @@ The properties, inside of the `front-matter`that define the content of the page 
 
 * `title`:
   * It provides the title of the news
-  * It is desplayed in **bold**
+  * It is displayed in **bold**
 
 * `subtitle`:
   * It provides the subtitle of the news

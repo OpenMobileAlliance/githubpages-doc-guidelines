@@ -21,7 +21,7 @@ Follow these steps to add a new webpage called **TestFests**
 ### 1. Create Webpage
 Inside of this folder [oma_github_pages / content](https://github.com/OpenMobileAlliance/oma_github_pages/tree/main/content), create an empty markdown file called `testfest.md`
 
-The full content of this webapge can be seen on this page, [TestFest](https://raw.githubusercontent.com/OpenMobileAlliance/oma_github_pages/main/content/testfests.md)
+The full content of this webpage can be seen on this page, [TestFest](https://raw.githubusercontent.com/OpenMobileAlliance/oma_github_pages/main/content/testfests.md)
 
 ### 2. Add Properties
 Inside of this file insert two lines with `---`. The content between these two lines is called the `front-matter`. Inside of this structure, we will add the `modules` and properties that define the content of the [TestFest](https://raw.githubusercontent.com/OpenMobileAlliance/oma_github_pages/main/content/testfests.md)webpage. 
@@ -179,7 +179,7 @@ Insert a new menu item between the **Resources** and the **Specifications** menu
 ```yml
     - 
       title: Information
-      description: News & BLog pages of the OMA DMSE
+      description: News & Blog pages of the OMA DMSE
       class: text-uppercase
       items:
         - 
@@ -188,7 +188,7 @@ Insert a new menu item between the **Resources** and the **Specifications** menu
            class: text-uppercase
 ```
 
-The content of this webpage can be be found in [TestFest](https://raw.githubusercontent.com/OpenMobileAlliance/oma_github_pages/main/content/testfests.md).
+The content of this webpage can be found in [TestFest](https://raw.githubusercontent.com/OpenMobileAlliance/oma_github_pages/main/content/testfests.md).
 
 ## F.A.Q
 Please create an issue by clicking [here](https://github.com/OpenMobileAlliance/githubpages-doc-guidelines/issues).

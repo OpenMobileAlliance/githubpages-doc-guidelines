@@ -48,7 +48,7 @@ This is the code that describes the content of the `footer`:
   <footer class="fixed-bottom footer mt-auto py-3">
     <b-container fluid>
       <b-row no-gutters>
-        <b-col> /* OMA copyrigh statement */
+        <b-col> /* OMA copyright statement */
           <p class="font-weight-light mt-2">
             <small>(&copy;) 2021 Open Mobile Alliance</small>
           </p>

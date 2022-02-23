@@ -21,11 +21,11 @@ The properties, inside of the `front-matter` that define the content of the page
 * `layout`:  **blog**
 
 * `image`: 
-  * this property allows to asign an image stored in the images folder, e.g.: `/images/blogs.jpeg`
+  * this property allows to assign an image stored in the images folder, e.g.: `/images/blogs.jpeg`
 
 * `title`:
   * It provides the title of the blog
-  * It is desplayed in **bold**
+  * It is displayed in **bold**
 
 * `subtitle`:
   * It provides the subtitle of the blog
@@ -90,7 +90,7 @@ FileName Schema: <b>"YYYY-MM-DD-BlogTitle.md"</b>
 
 "DD": is the day
 
-"BLogTitle": is a free name for the file
+"BlogTitle": is a free name for the file
 
 </alert>
 

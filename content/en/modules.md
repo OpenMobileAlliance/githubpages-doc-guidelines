@@ -7,7 +7,7 @@ category: 'GETTING STARTED'
 ## Overview
 This section provides a list of existing `modules` and its content type.
 
-New `modules` are being developed by the open-source project [Standardards Code]()
+New `modules` are being developed by the open-source project [StandardsCode]()
 
 ## Content Type
 As previously indicated the basic type of content inside of a `module` could be:
