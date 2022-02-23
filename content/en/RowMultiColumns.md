@@ -5,7 +5,7 @@ position: 150
 category: 'MODULES'
 ---
 ## Overview
-This `module` is use to insert a table inside of a `container`. The property `cols` is used to define the number of columns of the table and the property `widths` is used to define the width of each column. The total width of the `container` is `12` columns. The additon of all the values inserted in the `widths` property MUST be equal to `12` in order to keep the table rendered correctly. 
+This `module` is use to insert a table inside of a `container`. The property `cols` is used to define the number of columns of the table and the property `widths` is used to define the width of each column. The total width of the `container` is `12` columns. The addition of all the values inserted in the `widths` property MUST be equal to `12` in order to keep the table rendered correctly. 
 At the same time each column of the table can contain its own `module`.
 
 ## Display
@@ -280,5 +280,4 @@ In this example, the table contains **12** columns allocated as follow:
   * See content [indentation]()
 
 ## F.A.Q
-Please create an issue by clickig [here](https://github.com/OpenMobileAlliance/githubpages-doc-guidelines/issues).
-
+Please create an issue by clicking [here](https://github.com/OpenMobileAlliance/githubpages-doc-guidelines/issues).

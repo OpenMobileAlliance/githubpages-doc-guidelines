@@ -77,12 +77,12 @@ This is an example of how a [`RowEvents`](https://raw.githubusercontent.com/Open
       status:
       url:
       target:
-   -  # repite the properties inside of items for each row
+   -  # repeat the properties inside of items for each row
 ```
 If the `module` is used inside of the of e.g.: `RowButtonGrid` which at the same time is inside of `RowMultiColumns`, then the structure is:
 
 ```yml
-  - # alwasys start with `-`, the next set of properties define a table with 3 columns
+  - # always start with `-`, the next set of properties define a table with 3 columns
     name: RowMultiColumns
     cols: 3
     widths: [2, 8, 2]
@@ -93,7 +93,7 @@ If the `module` is used inside of the of e.g.: `RowButtonGrid` which at the same
         cols:                # this property doesn't have a value but indicates the beginning of the column
           - 
             title:           # title of the column in bold
-            subtitle:        # subitle of the column in italic
+            subtitle:        # subtitle of the column in italic
             image:           # image e.g. fas users
             items:           # it doesn't have a value, indicates the beginning of the rows
             - # this section defines the content on each row, which are represented as buttons or bubbles
@@ -102,7 +102,7 @@ If the `module` is used inside of the of e.g.: `RowButtonGrid` which at the same
                   status:    # provides the background color
                   url:       # host the value for the URL to point to
                   target:    # allows to open the URL content in a new page if it is set to "_blank"
-            -  # repite the properties inside of items for each row
+            -  # repeat the properties inside of items for each row
 ```
 
 ### Description
@@ -135,7 +135,7 @@ If the `module` is used inside of the of e.g.: `RowButtonGrid` which at the same
         * the subtitle is displayed in italic
       * `status`:
         * this property controls the background color of the `button` or `bubble`, the possible values are:
-            * `hightlight`
+            * `highlight`
               * in the CSS this element is configured to be `highlighted`
             * `active`
               * the look and feel provided in the CSS is configured to be `on`
@@ -150,4 +150,4 @@ If the `module` is used inside of the of e.g.: `RowButtonGrid` which at the same
         * optional property, which values are *empty* or `_blank`. The latest value, opens the URL in a new webpage
 
 ## F.A.Q
-Please create an issue by clickig [here](https://github.com/OpenMobileAlliance/githubpages-doc-guidelines/issues).
+Please create an issue by clicking [here](https://github.com/OpenMobileAlliance/githubpages-doc-guidelines/issues).

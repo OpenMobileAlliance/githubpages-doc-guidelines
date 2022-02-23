@@ -26,7 +26,7 @@ The properties, inside of the `front-matter`that define the content of the page 
 
 * `title`:
   * It provides the title of the news
-  * It is desplayed in **bold**
+  * It is displayed in **bold**
 
 * `subtitle`:
   * It provides the subtitle of the news
@@ -98,4 +98,4 @@ FileName Schema: <b>"YYYY-MM-DD-NewsTitle.md"</b>
 
 
 ## F.A.Q
-Please create an issue by clickig [here](https://github.com/OpenMobileAlliance/githubpages-doc-guidelines/issues).
+Please create an issue by clicking [here](https://github.com/OpenMobileAlliance/githubpages-doc-guidelines/issues).

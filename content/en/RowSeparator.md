@@ -46,7 +46,7 @@ This table describes what is and how to use the `RowSeparator` module.
 </table>
 
 ## Code
-This is an [example](https://raw.githubusercontent.com/OpenMobileAlliance/oma_github_pages/main/content/index.md) of a `RowSeparator` module written in a markdonw file:
+This is an [example](https://raw.githubusercontent.com/OpenMobileAlliance/oma_github_pages/main/content/index.md) of a `RowSeparator` module written in a markdown file:
 
 ```md [oma_github_pages/content/index.md]
   -
@@ -75,4 +75,4 @@ This is an [example](https://raw.githubusercontent.com/OpenMobileAlliance/oma_gi
 * `XL`: extra large empty line
 
 ## F.A.Q
-Please create an issue by clickig [here](https://github.com/OpenMobileAlliance/githubpages-doc-guidelines/issues).
+Please create an issue by clicking [here](https://github.com/OpenMobileAlliance/githubpages-doc-guidelines/issues).

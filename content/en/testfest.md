@@ -7,7 +7,7 @@ category: 'Pages'
 
 ## Overview
 This page is used to present TestFest related information.
-The page is browken down into several `modules` as described below.
+The page is broken down into several `modules` as described below.
 
 ## Display
 The image below depictures the content displayed on this page broken down into `modules`.
@@ -26,8 +26,8 @@ The properties, inside of the `front-matter` that define the content of the page
             * The properties are:
                 * `name`: **RowText**
                 * `text`:
-                    * as the text is extended over more than one line, the symbol `|` MUST be added at the begining 
-                    * the content is written in markdonw language
+                    * as the text is extended over more than one line, the symbol `|` MUST be added at the beginning 
+                    * the content is written in markdown language
         * [`RowSeparator`](https://openmobilealliance.github.io/githubpages-doc-guidelines/RowSeparator)
             * The properties are:
                 * `name`: **RowSeparator**
@@ -48,8 +48,8 @@ The properties, inside of the `front-matter` that define the content of the page
             * The properties are:
                 * `name`: **RowText**
                 * `text`:
-                    * as the text is extended over more than one line, the symbol `|` MUST be added at the begining 
-                    * the content is written in markdonw language
+                    * as the text is extended over more than one line, the symbol `|` MUST be added at the beginning 
+                    * the content is written in markdown language
 
         * [`RowSeparator`](https://openmobilealliance.github.io/githubpages-doc-guidelines/RowSeparator)
             * The properties for this `module` are defined above
@@ -59,8 +59,8 @@ The properties, inside of the `front-matter` that define the content of the page
                 * `name`: **RowText**
                 * `status`: this property is set to the value **second** which provides a `background-color` to the text `module`
                 * `text`:
-                    * as the text is extended over more than one line, the symbol `|` MUST be added at the begining 
-                    * the content is written in markdonw language to define a registration area
+                    * as the text is extended over more than one line, the symbol `|` MUST be added at the beginning 
+                    * the content is written in markdown language to define a registration area
 
         * [`RowSeparator`](https://openmobilealliance.github.io/githubpages-doc-guidelines/RowSeparator)
             * The properties for this `module` are defined above
@@ -72,4 +72,4 @@ No modules are or can be defined outside of the `front-matter`, only markdown te
 In this page markdown language is used to elaborate **Frequent Asked Questions** about TestFests.
 
 ## F.A.Q
-Please create an issue by clickig [here](https://github.com/OpenMobileAlliance/githubpages-doc-guidelines/issues).
+Please create an issue by clicking [here](https://github.com/OpenMobileAlliance/githubpages-doc-guidelines/issues).

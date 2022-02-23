@@ -12,7 +12,7 @@ The home page can be reached by using the URL [https://lwm2m.openmobilealliance.
 
 The page contains a table defined by the [`RowMultiColumn`](https://openmobilealliance.github.io/githubpages-doc-guidelines/RowMultiColumns) module that contains the following information:
 * [LwM2M News](https://lwm2m.openmobilealliance.org/news/)
-* Versions of the [LwM2M protocol](https://guidelines.openmobilealliance.org/#v12-functionality) relased until now
+* Versions of the [LwM2M protocol](https://guidelines.openmobilealliance.org/#v12-functionality) released until now
 * List of available [LwM2M Test Specifications](http://www.openmobilealliance.org/release/LightweightM2M/ETS/)
 * Other [LwM2M Enablers](https://guidelines.openmobilealliance.org/enablers)
 * [LwM2M Registry](https://technical.openmobilealliance.org/OMNA/LwM2M/LwM2MRegistry.html) and [wiki](https://github.com/OpenMobileAlliance/OMA_LwM2M_for_Developers/wiki)
@@ -78,14 +78,14 @@ The properties that define the page are inserted inside of the `front-matter` [^
         * status: optional, it can be set to `second` which extends the width of the image
         * `text`: if it starts with the symbol `|`, then multiple markdown lines can be used
     * [RowSeparator](https://openmobilealliance.github.io/githubpages-doc-guidelines/RowSeparator)
-      * this container introduces an empty horizontal space to speparated vertically the containers the above and below `modules`
+      * this container introduces an empty horizontal space to separated vertically the containers the above and below `modules`
       * see properties above
     * [RowTextImage](https://openmobilealliance.github.io/githubpages-doc-guidelines/RowTextImage)
       * this container contains a single `module` with `text` on the lef-hand side and an `image` on the right-hand side of the row
       * it is used to define IPSO scope of work
       * the same as `RowImageText` but in this case the text goes to the left and the `cols` property limits the size of the text part
     * [RowSeparator](https://openmobilealliance.github.io/githubpages-doc-guidelines/RowSeparator)
-      * this container introduces a empty horizontal space that separates the the above `module` from the markdown text outside of the `front-matter`
+      * this container introduces a empty horizontal space that separates the above `module` from the markdown text outside of the `front-matter`
 
 **Outside of the `front-matter`**
 
@@ -98,6 +98,6 @@ In this page, markdown language is used to define the **About OMA SpecWorks** se
 
 ## F.A.Q
 
-Please create an issue by clickig [here](https://github.com/OpenMobileAlliance/githubpages-doc-guidelines/issues).
+Please create an issue by clicking [here](https://github.com/OpenMobileAlliance/githubpages-doc-guidelines/issues).
 
-[^1]: a `front-matter` section is an space inside of a markdown file limited by  two set of dashes `---`. Any other content outside of these dashes is considered outside of the `front-matter`.
+[^1]: a `front-matter` section is an space inside of a markdown file limited by two set of dashes `---`. Any other content outside of these dashes is considered outside of the `front-matter`.

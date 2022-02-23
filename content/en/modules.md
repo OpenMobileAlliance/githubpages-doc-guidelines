@@ -7,7 +7,7 @@ category: 'GETTING STARTED'
 ## Overview
 This section provides a list of existing `modules` and its content type.
 
-New `modules` are being developed by the open-source project [Standardards Code]()
+New `modules` are being developed by the open-source project [StandardsCode]()
 
 ## Content Type
 As previously indicated the basic type of content inside of a `module` could be:
@@ -146,4 +146,4 @@ These are the `modules` used in the [lwm2m.openmobilealliance.org](https://lwm2m
 > Indentation: it is important to respect the indentation of the module properties. If the indentation is not correct, the content may not be displayed correctly.
 
 ## F.A.Q
-Please create an issue by clickig [here](https://github.com/OpenMobileAlliance/githubpages-doc-guidelines/issues).
+Please create an issue by clicking [here](https://github.com/OpenMobileAlliance/githubpages-doc-guidelines/issues).

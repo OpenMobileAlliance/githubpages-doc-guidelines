@@ -6,7 +6,7 @@ category: Pages
 ---
 ## Overview
 This page contains a table with links to different type of resources: webpages, PDF, etc.
-The content on the table is searcheable. It is possible to sort out the content in some columns and specify how many rows will be shown per page.
+The content on the table is searchable. It is possible to sort out the content in some columns and specify how many rows will be shown per page.
 
 ## Display
 This image depictures the content displayed on this page broken down in containers with a single `module`.
@@ -46,7 +46,7 @@ The properties that define this page, are inserted inside of the `front-matter` 
         * `name`: RowDynamicTable
         * `description`: table dedicated to display resources
         * `pagination`: 10
-            * the table will diplay resources in groups of 10 rows
+            * the table will display resources in groups of 10 rows
         * `filter`:
             * it defines the value of three of the column headers: **Title**, **Type** and **Published**. This means that it will be possible to sort out the content these of these three columns.
         * `columns`:
@@ -81,6 +81,4 @@ The properties that define this page, are inserted inside of the `front-matter` 
 In this page, although it is possible to insert further content after the table, the markdown language is not used outside of the `front-matter`.
 
 ## F.A.Q
-Please create an issue by clickig [here](https://github.com/OpenMobileAlliance/githubpages-doc-guidelines/issues).
-
-
+Please create an issue by clicking [here](https://github.com/OpenMobileAlliance/githubpages-doc-guidelines/issues).
