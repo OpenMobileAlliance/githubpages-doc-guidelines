@@ -27,4 +27,4 @@ It is a free and open-source web application framework based on [Vue.js](), [Nod
 It is an open-source web application framework that extends [Nutx.js]() by defining `modules` inserted into the `front-matter` of markdown files. The content on these `modules` are configuration values, written as a pair key:value. This configuration content is converted by [Nutx.js]() into static HTML pages that are hosted by GitHub Pages.
 
 ## F.A.Q
-Please create an issue by clickig [here](https://github.com/OpenMobileAlliance/githubpages-doc-guidelines/issues).
+Please create an issue by clicking [here](https://github.com/OpenMobileAlliance/githubpages-doc-guidelines/issues).

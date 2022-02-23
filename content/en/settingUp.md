@@ -87,5 +87,5 @@ The local host is listening on: http://localhost:3000/test-nuxt/
 Click in this link and you will have your local website running in your host.
 
 ## F.A.Q
-Please create an issue by clickig [here](https://github.com/OpenMobileAlliance/githubpages-doc-guidelines/issues).
+Please create an issue by clicking [here](https://github.com/OpenMobileAlliance/githubpages-doc-guidelines/issues).
 

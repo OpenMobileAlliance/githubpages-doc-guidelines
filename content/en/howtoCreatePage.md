@@ -191,4 +191,4 @@ Insert a new menu item between the **Resources** and the **Specifications** menu
 The content of this webpage can be be found in [TestFest](https://raw.githubusercontent.com/OpenMobileAlliance/oma_github_pages/main/content/testfests.md).
 
 ## F.A.Q
-Please create an issue by clickig [here](https://github.com/OpenMobileAlliance/githubpages-doc-guidelines/issues).
+Please create an issue by clicking [here](https://github.com/OpenMobileAlliance/githubpages-doc-guidelines/issues).

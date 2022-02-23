@@ -280,5 +280,5 @@ In this example, the table contains **12** columns allocated as follow:
   * See content [indentation]()
 
 ## F.A.Q
-Please create an issue by clickig [here](https://github.com/OpenMobileAlliance/githubpages-doc-guidelines/issues).
+Please create an issue by clicking [here](https://github.com/OpenMobileAlliance/githubpages-doc-guidelines/issues).
 

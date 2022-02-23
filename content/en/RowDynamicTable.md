@@ -254,4 +254,4 @@ The properties: `title`, `icon`, `url` and `target` are properties that can be u
     * if this value `_blank` is inserted then the webpage will be open in a new window
 
 ## F.A.Q
-Please create an issue by clickig [here](https://github.com/OpenMobileAlliance/githubpages-doc-guidelines/issues).
+Please create an issue by clicking [here](https://github.com/OpenMobileAlliance/githubpages-doc-guidelines/issues).

@@ -11,4 +11,4 @@ The content of this website is stored in the GitHub repository, [oma_github_page
 The repository has been configured for continuos deployment using GitHub Actions. Each time that a Pull Request is merged into the `master` branch, the new content is executed and new static HTML pages are deployed via the GitHub pages.
 
 ## F.A.Q
-Please create an issue by clickig [here](https://github.com/OpenMobileAlliance/githubpages-doc-guidelines/issues).
+Please create an issue by clicking [here](https://github.com/OpenMobileAlliance/githubpages-doc-guidelines/issues).

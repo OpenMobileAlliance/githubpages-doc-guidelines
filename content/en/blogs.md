@@ -96,4 +96,4 @@ FileName Schema: <b>"YYYY-MM-DD-BlogTitle.md"</b>
 
 
 ## F.A.Q
-Please create an issue by clickig [here](https://github.com/OpenMobileAlliance/githubpages-doc-guidelines/issues).
+Please create an issue by clicking [here](https://github.com/OpenMobileAlliance/githubpages-doc-guidelines/issues).

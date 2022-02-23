@@ -65,4 +65,4 @@ This is an example of how [`RowNewsCards`](https://raw.githubusercontent.com/Ope
 * it is an empty property to indicate that the module will holds news
 
 ## F.A.Q
-Please create an issue by clickig [here](https://github.com/OpenMobileAlliance/githubpages-doc-guidelines/issues).
+Please create an issue by clicking [here](https://github.com/OpenMobileAlliance/githubpages-doc-guidelines/issues).

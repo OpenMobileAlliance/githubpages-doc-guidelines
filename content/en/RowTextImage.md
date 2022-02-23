@@ -89,4 +89,4 @@ This is an example of a [`RowTextImage`](https://raw.githubusercontent.com/OpenM
 * if more than one line of text is needed, then insert the special charter `|`, this will allow multiple lines of Markdown text
 
 ## F.A.Q
-Please create an issue by clickig [here](https://github.com/OpenMobileAlliance/githubpages-doc-guidelines/issues).
+Please create an issue by clicking [here](https://github.com/OpenMobileAlliance/githubpages-doc-guidelines/issues).

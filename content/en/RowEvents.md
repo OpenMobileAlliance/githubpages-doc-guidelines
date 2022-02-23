@@ -150,4 +150,4 @@ If the `module` is used inside of the of e.g.: `RowButtonGrid` which at the same
         * optional property, which values are *empty* or `_blank`. The latest value, opens the URL in a new webpage
 
 ## F.A.Q
-Please create an issue by clickig [here](https://github.com/OpenMobileAlliance/githubpages-doc-guidelines/issues).
+Please create an issue by clicking [here](https://github.com/OpenMobileAlliance/githubpages-doc-guidelines/issues).

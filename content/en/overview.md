@@ -50,4 +50,4 @@ This section describes in detail the content and structure of the following webp
 This section provides a detailed description of the type of content, properties  and and usage of the `modules` created by [StandardsCode]() [framework](https://openmobilealliance.github.io/githubpages-doc-guidelines/framework).
 
 ## F.A.Q
-Please create an issue by clickig [here](https://github.com/OpenMobileAlliance/githubpages-doc-guidelines/issues).
+Please create an issue by clicking [here](https://github.com/OpenMobileAlliance/githubpages-doc-guidelines/issues).

@@ -81,6 +81,6 @@ The properties that define this page, are inserted inside of the `front-matter` 
 In this page, although it is possible to insert further content after the table, the markdown language is not used outside of the `front-matter`.
 
 ## F.A.Q
-Please create an issue by clickig [here](https://github.com/OpenMobileAlliance/githubpages-doc-guidelines/issues).
+Please create an issue by clicking [here](https://github.com/OpenMobileAlliance/githubpages-doc-guidelines/issues).
 
 
