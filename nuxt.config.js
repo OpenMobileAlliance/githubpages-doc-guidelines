@@ -8,5 +8,8 @@ export default theme({
   },
   router: { 
     base: '/githubpages-doc-guidelines/' 
-  }
+  },
+  plugins: [
+    '~~/plugins/gtag',
+  ],
 })
